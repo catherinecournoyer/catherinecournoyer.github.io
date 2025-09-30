@@ -1,2 +1,2 @@
-# booksandragons.github.io
+# catherinecournoyer.github.io
 practice repo for infs634
