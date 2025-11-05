@@ -1,0 +1,9 @@
+.btn-primary {
+    background-color: gold;
+    border-color: black;
+}
+
+.btn-primary:hover {
+    background: red ;
+    border-color: black;
+}

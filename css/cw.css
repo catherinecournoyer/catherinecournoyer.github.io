@@ -1,0 +1,93 @@
+* {
+/* 
+    -background-image: url("https://images.squarespace-cdn.com/content/v1/607f89e638219e13eee71b1e/1684821560422-SD5V37BAG28BURTLIXUQ/michael-sum-LEpfefQf4rU-unsplash.jpg");
+      background-attachment: fixed;
+*/
+}
+
+
+:root{
+  --primary-red: #e6acb1;
+}
+
+h1 {
+  color: rgb(167, 0, 161);
+  padding: 10px;
+  text-align: center;
+  background-color: rgb(179, 227, 193);
+}
+#heading1 {
+    color: var(--primary-red);
+    font-family: "momo signature","lucida handwriting",cursive;
+}
+
+/* -main font, fallback font, default font>
+    -to download a pdf just write download after the ref in the a tag
+
+*/
+
+#heading2 {
+    color: rgb(14, 0, 167);
+    font-size: 3.8 rem;
+    text-decoration-line: underline;
+}
+
+.text-pink{
+    color: rgb(255, 112, 217);
+}
+
+p.thick{
+  font-weight: bold;
+}
+
+a{
+  color:aqua;
+  text-decoration: dotted;
+  background-color: red;
+  padding: 20px 10px 20px 10px;
+  margin-left: 50px;
+}
+
+a:hover{
+  color:rgb(0, 0, 255);
+  background-color: pink;
+}
+
+.text-background-yellow{
+    background-color: rgb(255, 247, 0);
+}
+
+body {
+  margin: 0;
+  padding: 0; 
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+  color: black;
+}
+
+header {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+
+.nav {
+    background-color: aqua;
+    height: 48px;
+    width: 100%;
+}
+
+.logo {
+    position: relative;
+    left: 25%;
+    padding-top: 10px
+}
+
+@media (max-width: 576px){
+  body{
+    background-color:coral;
+  }
+}+
