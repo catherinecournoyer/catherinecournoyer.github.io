@@ -12,53 +12,54 @@
         <style></style> 
         <script></script>
     </head>
-    <header>
-        <table>
-            <tr>
-                <th><img src="assets/img/photo_cc.webp" class="imgshadow rounded float-start" 
-            alt="Photo de Catherine Cournoyer, prise au Niveau 3 de la Grande Bibliothèque à Montréal."
-            width="200"/></th>
-                <th><h1>Catherine Cournoyer</h1></th>
-            </tr>
-        </table>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index">Accueil</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="cv">CV</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Mises en valeur
-                    </a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">2025</a></li>
-                        <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" href="#">Listes de suggestions</a></li>
-                    </ul>
-                    <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Mes recommendations
-                    </a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">2025</a></li>
-                    </ul>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="contact.html">Contactez-moi</a>
-                    </li>
-                </ul>
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-                    <button class="btn btn-outline-success" type="submit">Recherche</button>
-                </form>
-                </div>
-            </div>
-        </nav>
-    </header>
+<header>
+  <table class="table-responsive">
+    <tbody>
+      <tr>
+        <td class="col-2"><img src="assets/img/photo_cc.webp" class="imgshadow rounded-pill"
+              alt="Photo de Catherine Cournoyer, prise au Niveau 3 de la Grande Bibliothèque à Montréal."
+              width="200"/></td>
+        <td class="col-10 vertical-align=middle"><p id="nomPrincipal" >Catherine Cournoyer</td>
+      </tr>
+    </tbody>
+  </table>
+  <div><nav class="row navbar navbar-expand-lg bg-body-tertiary float-none">
+      <div class="container-fluid collapse navbar-collapse" id="navbarSupportedContent">
+          <div>
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+              <a type="button" class="nav-link btn btn-primary rounded-pill border border-2" href="index.html">Accueil</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link btn btn-primary border border-2" href="cv.html">CV</a>
+              </li>
+              <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle btn btn-primary rounded-pill border border-2" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  BAnQ
+              </a>
+              <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="misesEnValeur.html">Mises en valeur 2025</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="https://www.banq.qc.ca/catherine-cournoyer/">Listes de suggestions</a></li>
+              </ul>
+              <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle btn btn-primary rounded-pill border border-2" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Mes recommendations
+              </a>
+              <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="recommendations.html">2025</a></li>
+              </ul>
+              <li class="nav-item">
+                  <a class="nav-link btn btn-primary rounded-pill border border-2" aria-current="page" href="contact.html">Contactez-moi</a>
+              </li>
+          </ul></div>
+          <div><form id="recherche" class="nav-item d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Recherche" aria-label="Search"/>
+              <button class="btn btn-primary rounded-pill border border-2" type="submit">Recherche...</button>
+          </form></div>
+          </div>
+  </nav></div>
+</header>
     <body>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
     <h2 class="text-center">Contactez-moi!</h2>        
@@ -74,7 +75,8 @@
             <option>
         </form>
 
-
+        <p>Attributions</p>
+        <a href="https://www.vecteezy.com/free-vector/art">Art Vectors by Vecteezy</a>
         
     </body>
 </html>

@@ -1,50 +1,244 @@
 * {
-  background-color: rgba(227, 135, 255, 0.8);  
+  background-color: rgb(244, 221, 190);  
+  font-family: "Viaoda Libre", Cambria, serif
+}
+
+.albumscontainer {
+  padding-bottom: 15px;
+  padding-top: 15px; 
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 body {
-  margin: 0;
-  padding: 0;
+  background-color: rgb(244, 221, 190);  
+}
+
+.btn-primary {
+  background-color: transparent; 
+  border-color: rgb(37, 150, 190);
+  border-width: 2px;
+  padding: 10px 20px 10px 20px;
+  color: black;
+}
+
+.btn-primary:hover {
+  background-color: transparent; 
+  border-color: rgb(37, 150, 190);
+  border-width: 7px;
+  padding: 20px 10px 20px 10px;
+    color: black;
+}
+
+.btn-primary:active {
+  background-color: transparent; 
+  border-color: rgb(37, 150, 190);
+  border-width: 7px;
+  color: rgb(37, 150, 190);
+  padding: 20px 10px 20px 10px;
+    color: black;
+}
+
+.btn-secondary {
+  background-color: transparent; 
+  border-color: rgb(37, 150, 190);
+  border-width: 2px;
+  color: rgb(37, 150, 190);
+  padding: 10px 20px 10px 20px;
+}
+
+.btn-secondary:hover {
+  background-color: transparent; 
+  border-color: rgb(37, 150, 190);
+  border-width: 7px;
+  color: rgb(37, 150, 190);
+  padding: 20px 10px 20px 10px;
+}
+
+.btn-secondary:active {
+  background-color: transparent; 
+  border-color: rgb(37, 150, 190);
+  border-width: 7px;
+  color: rgb(37, 150, 190);
+  padding: 20px 10px 20px 10px;
+}
+
+.carousel-caption {
+  background-color: transparent;
+  margin-left: 0;
+  left: 40%;
+  right: 0%;
+  bottom: 0%;
+}
+
+.carousel-control-prev {
+  color: rgb(37, 150, 190);
+  background-color: rgb(37, 150, 190);
+  width: fit-content;
+  margin-left: 150px;
+}
+
+.carousel-control-next {
+  color: rgb(37, 150, 190);
+  background-color: rgb(37, 150, 190);
+  width: fit-content;
+  margin-right: 150px;
+}
+
+.center {
+  text-align: center;
+}
+
+.divider {
+  height: 60%;
+}
+
+div.carousel-caption {
+  text-align: left;
+}
+
+
+
+footer {
+  background-color: rgb(244, 221, 190);
 }
 
 h1 {
   text-align: center;
 }
 
-.px-2 {
-  padding-top: ($spacer * .5);
-  padding-bottom: ($spacer * .5);
+h2 {
+  text-align: left;
+  margin-bottom: 15px;
+  margin-left: 30px;
 }
 
-.p-3 {
-  padding: $spacer;
+h3 {
+  text-align: center;
+  background-color: transparent; 
 }
 
-.link{
-
-}
-
-p {
-  font-family: verdana;
-  font-size: 20px;
+h4 {
+  text-align: left;
+  margin-bottom: 30px;
 }
 
 header {
-  padding: 10px;
-  text-align: center;
+  background-color: rgb(244, 221, 190);  
 }
 
-.nav {
-    background-color: aqua;
-    height: 48px;
-    width: 100%;
+.carousel-inner {
+  padding-bottom: 30px;
 }
 
+.imgdivleft {
+  width: 60%;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+.imgdivright {
+  width: 60%;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  transform: rotate(180dg);
+}
+
+.imgalbum {
+  width: 100%;
+}
+
+.imagePrinc{
+  margin: 20px;
+}
+
+.imgRec{
+  margin-left: 150px;
+  margin-right: 30px;
+  margin-top: 30px;
+  text-align: left;
+  margin-bottom: 30px;
+  height: 50%;
+  width: auto;
+}
+
+#nomPrincipal {
+  text-align: left;
+  font-size: 50px;
+  font-family: "Viaoda Libre", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#recherche {
+  margin-top: 16px;  
+}
+
+.recomTi {
+  color: rgb(37, 150, 190);
+  font-size: 50px;
+  margin-top: 30px;
+  width: 100%;
+  /*width: fit-content;*/
+}
+
+.recomBtn {
+  border-color: rgb(37, 150, 190);
+  border-width: 2px;
+  color: rgb(37, 150, 190);
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 10px 20px 10px 20px;
+
+}
+
+.recomBtn:hover {
+  border-color: rgb(37, 150, 190);
+  border-width: 7px;
+  color: rgb(37, 150, 190);
+  margin-left: 30px;
+  margin-right: 30px;
+  padding: 20px 10px 20px 10px;
+}
+
+
+.recomImg {
+  width: 500px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.viaoda-libre-regular {
+  font-family: "Viaoda Libre", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+/*
 .logo {
     position: relative;
     left: 25%;
     padding-top: 10px
 }
 
-  rgb(163, 255, 135);
-  rgba(227, 135, 255, 0.8)
+.nav-link{
+    background-color: rgba(227, 135, 255, 0.8;
+    border-color: rgb(163, 255, 135);
+    padding: 20px 40px 20px 40px;
+}
+
+.p {
+  font-family: ;
+  font-size: ;
+}
+
+
+
+.cv-list {
+  ;
+}
+
+rgb(163, 255, 135);
+  rgba(227, 135, 255, 0.8)*/
