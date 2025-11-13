@@ -1,5 +1,5 @@
 * {
-  background-color: rgb(244, 221, 190);  
+  background-color: rgb(253, 218, 180);  
   font-family: "Viaoda Libre", Cambria, serif
 }
 
@@ -11,7 +11,7 @@
 }
 
 body {
-  background-color: rgb(244, 221, 190);  
+  background-color: rgb(253, 218, 180);  
 }
 
 .btn-primary {
@@ -20,23 +20,25 @@ body {
   border-width: 2px;
   padding: 10px 20px 10px 20px;
   color: black;
+  margin-bottom: 10px;
 }
 
 .btn-primary:hover {
-  background-color: transparent; 
+  background-color: rgb(37, 150, 190);
   border-color: rgb(37, 150, 190);
   border-width: 7px;
   padding: 20px 10px 20px 10px;
-    color: black;
+    color: white;
+  margin-bottom: 10px;
 }
 
 .btn-primary:active {
-  background-color: transparent; 
+  background-color: rgb(37, 150, 190); 
   border-color: rgb(37, 150, 190);
   border-width: 7px;
-  color: rgb(37, 150, 190);
   padding: 20px 10px 20px 10px;
-    color: black;
+    color: white;
+  margin-bottom: 10px;
 }
 
 .btn-secondary {
@@ -63,6 +65,33 @@ body {
   padding: 20px 10px 20px 10px;
 }
 
+.btn-tertiary {
+  background-color: transparent; 
+  border-color: rgb(37, 150, 190);
+  border-width: 2px;
+  padding: 10px 20px 10px 20px;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.btn-tertiary:hover {
+  background-color: rgb(37, 150, 190);
+  border-color: rgb(37, 150, 190);
+  border-width: 7px;
+  padding: 20px 10px 20px 10px;
+    color: white;
+  margin-bottom: 10px;
+}
+
+.btn-tertiary:active {
+  background-color: rgb(37, 150, 190); 
+  border-color: rgb(37, 150, 190);
+  border-width: 7px;
+  padding: 20px 10px 20px 10px;
+    color: white;
+  margin-bottom: 10px;
+}
+
 .carousel-caption {
   background-color: transparent;
   margin-left: 0;
@@ -85,6 +114,9 @@ body {
   margin-right: 150px;
 }
 
+.carousel-inner {
+}
+
 .center {
   text-align: center;
 }
@@ -97,7 +129,40 @@ div.carousel-caption {
   text-align: left;
 }
 
+.dropdown-divider {
+  margin: 0px;
+}
 
+#navDropItem {
+  border-color: rgb(37, 150, 190);
+  border-width: 7px;
+  background-color: transparent;
+  margin-bottom: 0px;
+  padding: 15px;
+}
+
+#navDropItem:hover {
+  border-color: rgb(37, 150, 190);
+  border-width: 7px;
+  background-color: rgb(37, 150, 190); 
+  margin-bottom: 0px;
+  padding: 15px;
+  color: white;
+}
+
+#navDropMenu {
+  background-color: rgb(253, 218, 180); 
+  border-color: rgb(37, 150, 190);
+  border-width: 7px;
+  padding: 0px;
+}
+
+#navDropMenu:active {
+  background-color: rgb(253, 218, 180); 
+  border-color: rgb(37, 150, 190);
+  border-width: 7px;
+  color: rgb(37, 150, 190);
+}
 
 footer {
   background-color: rgb(244, 221, 190);
@@ -127,21 +192,34 @@ header {
   background-color: rgb(244, 221, 190);  
 }
 
-.carousel-inner {
-  padding-bottom: 30px;
+.carousel-indicators {
+  text-align: center;
+  width: 300px;
+  height: auto;
+  margin:auto;
+  
 }
 
-.imgdivleft {
-  width: 60%;
+.imgdivleft3 {
+  height: 281px;
+  width: auto;
   padding-top: 10px;
   padding-bottom: 30px;
 }
 
-.imgdivright {
-  width: 60%;
+.imgdivright3 {
+  height: 281px;
+  width: auto;
   padding-top: 10px;
   padding-bottom: 30px;
   transform: rotate(180dg);
+}
+
+.imgdiv2{
+  height: 281px;
+  width: auto;
+  padding-top: 10px;
+  padding-bottom: 30px;
 }
 
 .imgalbum {
@@ -156,11 +234,31 @@ header {
   margin-left: 150px;
   margin-right: 30px;
   margin-top: 30px;
-  text-align: left;
   margin-bottom: 30px;
-  height: 50%;
+  text-align: left;
+  height: auto;
+  width: 200px;
+}
+
+.imgRec:hover {
+  height: auto;
+  width: 350px;
+}
+
+.imgMEV {
+  height: auto;
+  width: 350px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 100px;
+}
+
+.imgTag {
+  height: 100px;
   width: auto;
 }
+
+
 
 #nomPrincipal {
   text-align: left;
@@ -177,8 +275,8 @@ header {
 .recomTi {
   color: rgb(37, 150, 190);
   font-size: 50px;
-  margin-top: 30px;
-  width: 100%;
+  margin-top: 10px;
+  width: 80%;
   /*width: fit-content;*/
 }
 
