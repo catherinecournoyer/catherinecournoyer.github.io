@@ -21,6 +21,7 @@ body {
   padding: 10px 20px 10px 20px;
   color: black;
   margin-bottom: 10px;
+  font-size: 20px;
 }
 
 .btn-primary:hover {
@@ -47,6 +48,7 @@ body {
   border-width: 2px;
   color: rgb(37, 150, 190);
   padding: 10px 20px 10px 20px;
+  font-size: 20px;
 }
 
 .btn-secondary:hover {
@@ -72,6 +74,7 @@ body {
   padding: 10px 20px 10px 20px;
   color: black;
   margin-bottom: 10px;
+  font-size: 20px;
 }
 
 .btn-tertiary:hover {
@@ -114,7 +117,8 @@ body {
   margin-right: 150px;
 }
 
-.carousel-inner {
+.carousel-indicators {
+  
 }
 
 .center {
@@ -133,39 +137,8 @@ div.carousel-caption {
   margin: 0px;
 }
 
-#navDropItem {
-  border-color: rgb(37, 150, 190);
-  border-width: 7px;
-  background-color: transparent;
-  margin-bottom: 0px;
-  padding: 15px;
-}
-
-#navDropItem:hover {
-  border-color: rgb(37, 150, 190);
-  border-width: 7px;
-  background-color: rgb(37, 150, 190); 
-  margin-bottom: 0px;
-  padding: 15px;
-  color: white;
-}
-
-#navDropMenu {
-  background-color: rgb(253, 218, 180); 
-  border-color: rgb(37, 150, 190);
-  border-width: 7px;
-  padding: 0px;
-}
-
-#navDropMenu:active {
-  background-color: rgb(253, 218, 180); 
-  border-color: rgb(37, 150, 190);
-  border-width: 7px;
-  color: rgb(37, 150, 190);
-}
-
 footer {
-  background-color: rgb(244, 221, 190);
+  background-color: rgb(253, 218, 180);
 }
 
 h1 {
@@ -185,7 +158,7 @@ h3 {
 
 h4 {
   text-align: left;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 header {
@@ -222,12 +195,21 @@ header {
   padding-bottom: 30px;
 }
 
+#imgDivMEV {
+  margin-top: 30px;
+  text-align: middle;
+  width: auto;
+  height: 100px;
+}
+
 .imgalbum {
   width: 100%;
 }
 
 .imagePrinc{
   margin: 20px;
+  width: 200px;
+  height: auto;
 }
 
 .imgRec{
@@ -236,8 +218,8 @@ header {
   margin-top: 30px;
   margin-bottom: 30px;
   text-align: left;
-  height: auto;
-  width: 200px;
+  height: 300px;
+  width: auto;
 }
 
 .imgRec:hover {
@@ -254,11 +236,40 @@ header {
 }
 
 .imgTag {
-  height: 100px;
+  height: 100;
   width: auto;
 }
 
+#navDropItem {
+  border-color: rgb(37, 150, 190);
+  border-width: 7px;
+  background-color: transparent;
+  margin-bottom: 0px;
+  padding: 15px;
+}
 
+#navDropItem:hover {
+  border-color: rgb(37, 150, 190);
+  border-width: 7px;
+  background-color: rgb(37, 150, 190); 
+  margin-bottom: 0px;
+  padding: 15px;
+  color: white;
+}
+
+#navDropMenu {
+  background-color: rgb(253, 218, 180); 
+  border-color: rgb(37, 150, 190);
+  border-width: 7px;
+  padding: 0px;
+}
+
+#navDropMenu:active {
+  background-color: rgb(253, 218, 180); 
+  border-color: rgb(37, 150, 190);
+  border-width: 7px;
+  color: rgb(37, 150, 190);
+}
 
 #nomPrincipal {
   text-align: left;
@@ -284,10 +295,8 @@ header {
   border-color: rgb(37, 150, 190);
   border-width: 2px;
   color: rgb(37, 150, 190);
-  margin-left: 10px;
-  margin-right: 10px;
+  margin: 20px;
   padding: 10px 20px 10px 20px;
-
 }
 
 .recomBtn:hover {
