@@ -10,6 +10,14 @@
   padding-right: 30px;
 }
 
+.blog-post-content {
+  margin-left: 30px;
+}
+
+.blog-post-meta {
+  margin-left: 30px;
+}
+
 body {
   background-color: rgb(253, 218, 180);  
 }
@@ -125,6 +133,21 @@ body {
   text-align: center;
 }
 
+.contactforminput {
+  width: 30%;
+  margin-bottom: 20px;
+}
+
+.contactformlabel {
+  text-align: center;
+}
+
+.contactformtext {
+  width: 40%;
+  height: 30%;
+  margin-bottom: 20px;
+}
+
 .divider {
   height: 60%;
 }
@@ -139,6 +162,10 @@ div.carousel-caption {
 
 footer {
   background-color: rgb(253, 218, 180);
+}
+
+form {
+  text-align: center;
 }
 
 h1 {
