@@ -125,9 +125,19 @@ body {
   margin-right: 150px;
 }
 
-.carousel-indicators {
-  
+.carousel-control-next-icon {
+  background-image: url("/assets/img/iconbookright.jpg");
 }
+
+.carousel-control-prev-icon {
+  background-image: url("/assets/img/iconbookleft.jpg");
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    width: 3rem;
+    height: 3rem;
+}
+
 
 .center {
   text-align: center;
@@ -170,6 +180,8 @@ form {
 
 h1 {
   text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 h2 {
@@ -180,7 +192,9 @@ h2 {
 
 h3 {
   text-align: center;
-  background-color: transparent; 
+  background-color:  rgb(253, 218, 180); 
+  margin-top: 30px;
+  margin-bottom: 0px;
 }
 
 h4 {
@@ -233,10 +247,26 @@ header {
   width: 100%;
 }
 
+.imgEmp {
+  width: 480px;
+  height:auto;
+}
+
+#SectEmp{
+  padding: 0px;
+}
+
 .imagePrinc{
   margin: 20px;
-  width: 200px;
-  height: auto;
+  width: auto;
+  height: 200px;
+}
+
+.imageSec {
+  margin: 20px;
+  width: auto;
+  height: 200px;
+  text-align: right;
 }
 
 .imgRec{
@@ -262,9 +292,37 @@ header {
   margin-left: 100px;
 }
 
+.imgMEVthumbv {
+  height: 140px;
+  width: auto;
+}
+
+.imgMEVbklist{
+  text-align: center;
+  height: auto;
+  width: 450px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 .imgTag {
   height: 100;
   width: auto;
+}
+
+.hidden-element {
+  display: none;
+}
+
+.parent-element:hover
+.hidden-element{
+  display: block;
+  height: 400px;
+  width: auto;
+}
+
+.MEVbklistref:hover{
+  image
 }
 
 #navDropItem {
@@ -299,11 +357,15 @@ header {
 }
 
 #nomPrincipal {
-  text-align: left;
+  text-align: center;
   font-size: 50px;
   font-family: "Viaoda Libre", serif;
   font-weight: 400;
   font-style: normal;
+}
+
+p {
+  font-size: 16px;
 }
 
 #recherche {
@@ -342,6 +404,10 @@ header {
   margin-right: 30px;
 }
 
+.table-responsive {
+  width: 100%;
+}
+
 .viaoda-libre-regular {
   font-family: "Viaoda Libre", serif;
   font-weight: 400;
@@ -363,10 +429,7 @@ header {
     padding: 20px 40px 20px 40px;
 }
 
-.p {
-  font-family: ;
-  font-size: ;
-}
+
 
 
 
