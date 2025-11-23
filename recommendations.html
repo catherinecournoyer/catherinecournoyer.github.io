@@ -16,67 +16,66 @@
     <script></script>
 </head>
 <header>
-  <table class="table-responsive">
-    <tbody>
-      <td class="col-4"><img src="assets/img/photo_cc.webp" class="imgshadow rounded-pill imagePrinc"
-              alt="Photo de Catherine Cournoyer, prise au Niveau 3 de la Grande Bibliothèque à Montréal."
-              width="200"/></td>
-        <td class="col-4"><p id="nomPrincipal" class="viaoda-libre-regular" >Catherine Cournoyer</td>
-        <td class="col-4"><img src="assets/img/mosaique.jpeg" role="img" class="imgshadow float-end imageSec"/></td>
-      </tr>
-      <tr>
-        <td class="col-4"><img src="assets/img/mosaiqueband.jpg" role="img" class=""/></td>
-        <td class="col-4"><img src="assets/img/mosaiqueband2.jpg" role="img" class=""/></td>
-      </tr>
-    </tbody>
-  </table>
-    <div><div class="row navbar navbar-expand-md float-none">
+<div class="container titleband">
+    <div class="row align-items-center">
+      <div class="col-lg-3 col-sm-12"><img src="assets/img/photo_cc.webp" class="imgshadow rounded-pill imagePrinc"
+              alt="Photo de Catherine Cournoyer, prise au Niveau 3 de la Grande Bibliothèque à Montréal."/></div>
+        <div class="col-lg-6 col-sm-12"><p id="nomPrincipal" class="viaoda-libre-regular" >Catherine Cournoyer</div>
+        <div class="col-lg-3 col-sm-12"><img src="assets/img/mosaique.jpeg" role="img" class="imgshadow float-end imageSec"/></div>
+    </div>
+    <div class="row">
+      <div class="col-lg-4 col-sm-12 imgBand"><img src="assets/img/mosaiqueband.jpg" role="img" class=""/></div>
+      <div class="col-lg-4 col-sm-12 imgBand"><img src="assets/img/mosaiqueband2.jpg" role="img" class=""/></div>
+    </div>
+    <div class="row navbar navbar-expand-md float-none">
       <div class="container-fluid collapse navbar-collapse">
         <ul class="navbar-nav">
-          <li class="nav-item">
+          <li class="nav-item col-lg-2 col-md-4 col-sm-6">
             <a type="button" class="nav-link btn btn-primary rounded-pill border" href="index.html">Accueil</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item col-lg-2 col-md-4 col-sm-6">
               <a class="nav-link btn btn-primary rounded-pill border" href="cv2.html">Ligne du temps</a>
           </li>
-          <li class="nav-item dropdown">
+          <li class="nav-item dropdown col-lg-2 col-md-4 col-sm-6">
           <a class="nav-link dropdown-toggle btn btn-primary rounded-pill border" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               BAnQ
           </a>
-          <ul class="dropdown-menu" id="navDropMenu">
+          <ul class="dropdown-menu col-lg-2 col-md-4 col-sm-6" id="navDropMenu">
               <li><a class="dropdown-item btn-tertiary" id="navDropItem" href="misesEnValeur.html">Mises en valeur 2025</a></li>
               <li><hr class="dropdown-divider"></li>
               <li><a class="dropdown-item btn-tertiary" id="navDropItem" target="_blank" href="https://www.banq.qc.ca/catherine-cournoyer/">Listes de suggestions</a></li>
           </ul>
-          <li class="nav-item">
+          <li class="nav-item col-lg-2 col-md-4 col-sm-6">
             <a class="nav-link btn btn-primary rounded-pill border" href="recommendations.html" role="button" aria-expanded="false">
               Mes recommendations
             </a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item col-lg-2 col-md-4 col-sm-6">
               <a class="nav-link btn btn-primary rounded-pill border" aria-current="page" href="contact.html">Contactez-moi</a>
           </li>
-        </ul>
+        </ul  class="col-lg-2 col-md-4 col-sm-6">
             <div><form id="recherche" class="nav-item d-flex" role="search">
                 <input class="form-control" type="search" placeholder="Recherche" aria-label="Search"/>
                 <button class="btn btn-primary rounded-pill border" type="submit"></button>
             </form></div>
       </div>
-    </div></div>
-  <table>
-    <tr>
-      <td class="col-4"><img src="assets/img/mosaiqueband.jpg" role="img" class=""/></td>
-      <td class="col-4"><img src="assets/img/mosaiqueband2.jpg" role="img" class=""/></td>
-      <td class="col-4"></td>
-    </tr>
-  </table>
+    </div>
+    <div class="row">
+      <div class="col-lg-4 col-sm-12 imgBand"><img src="assets/img/mosaiqueband.jpg" role="img" class=""/></div>
+      <div class="col-lg-4 col-sm-12 imgBand"><img src="assets/img/mosaiqueband2.jpg" role="img" class=""/></div>
+    </div>
+</div>
 </header>
 <body>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 
 <h1 class="text-center">Mes recommendations</h1>
+<div>
 <h2 class="h2">Fantaisie</h2>
   <div id="carouselRF" class="carousel slide" data-bs-ride="carousel">
+    <div class="col col-lg-1 col-sm-3"><button class="carousel-control-prev" type="button" data-bs-target="#carouselRF" data-bs-slide="next">
+      <img src="assets/img/iconbookleft.jpg" class="carousel-control-prev-icon" aria-hidden="true"></img>
+    </button></div>
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#carouselRF" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
       <button type="button" data-bs-target="#carouselRF" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -87,26 +86,26 @@
       <button type="button" data-bs-target="#carouselRF" data-bs-slide-to="6" aria-label="Slide 7"></button>
       <button type="button" data-bs-target="#carouselRF" data-bs-slide-to="7" aria-label="Slide 8"></button>
     </div>
-    <div class="container carousel-inner">
-      <div class="carousel-item active g-col-5">
-        <img class="float-start imgRec" src="assets/img/bookRec_CF_CantSpellTreasonWithoutTea.jpg"
-        aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="col-lg-4 offset-1 col-sm-3"><img class="float-start imgRec" src="assets/img/bookRec_CF_CantSpellTreasonWithoutTea.jpg"
+        aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></img></div>
         <div class="carousel-caption">
-              <h4 class="recomTi">Can't Spell Treason Without Tea, <span><img class="imgTag" src="assets/img/tag_CozyFantasy.jpg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></img></span></br>Rebecca Thorne</h4>
-              <a class="btn recomBtn" target="_blank" href="">Voir les détails sur Goodreads</a>
-              <a class="btn recomBtn" target="_blank" href="">Trouver en bibliothèque</a>
+              <div class="col-sm-12"><h4 class="recomTi">Can't Spell Treason Without Tea,</br>Rebecca Thorne</h4></div>
+              <div class="col-sm-12"><a class="btn recomBtn" target="_blank" href="https://www.goodreads.com/book/show/61753288-can-t-spell-treason-without-tea?from_search=true&from_srp=true&qid=piVOSIo4K5&rank=1">Voir les détails sur Goodreads</a></div>
+              <div class="col-sm-12"><a class="btn recomBtn" target="_blank" href="https://cap.banq.qc.ca/permalink/P-fbaf7499-4cb8-4db0-b956-77c8be7e6d06">Trouver en bibliothèque</a></div>
         </div>
       </div>
-      <div class="carousel-item g-col-5">
-        <img class="float-start imgRec" src="assets/img/bookRec_F_Warden.jpg" 
-        aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
-        <div class="carousel-caption">
-              <h4 class="recomTi">The Warden, </br>by Daniel M. Ford</h4>
-              <a class="btn recomBtn" target="_blank" href="https://www.goodreads.com/book/show/60784419-the-warden?from_search=true&from_srp=true&qid=OQaKJBjfQT&rank=1">Voir les détails sur Goodreads</a>
-              <a class="btn recomBtn" target="_blank" href="https://queerliblib.overdrive.com/media/10942859">Trouver en bibliothèque</a>
+      <div class="col carousel-item">
+        <div class="col"><img class="float-start imgRec" src="assets/img/bookRec_F_Warden.jpg" 
+        aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></img></div>
+        <div class="col carousel-caption">
+              <div class="col-sm-12"><h4 class="recomTi">The Warden, </br>by Daniel M. Ford</h4></div>
+              <div class="col-sm-12"><a class="btn recomBtn" target="_blank" href="https://www.goodreads.com/book/show/60784419-the-warden?from_search=true&from_srp=true&qid=OQaKJBjfQT&rank=1">Voir les détails sur Goodreads</a></div>
+              <div class="col-sm-12"><a class="btn recomBtn" target="_blank" href="https://queerliblib.overdrive.com/media/10942859">Trouver en bibliothèque</a></div>
         </div>
       </div>
-      <div class="carousel-item g-col-5">
+      <div class="col carousel-item">
         <img class="float-start imgRec" src="assets/img/bookRec_F_EnvyOfAngels.jpg"
         aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
         <div class="carousel-caption">
@@ -115,11 +114,11 @@
               <a class="btn recomBtn" target="_blank" href="https://cap.banq.qc.ca/search/a81cb408-ed9b-439c-9c24-f57107e2148d">Trouver en bibliothèque</a>
         </div>
       </div>
-      <div class="carousel-item g-col-5">
+      <div class="carousel-item col-lg-5">
         <img class="float-start imgRec" src="assets/img/bookRec_CF_ThisPrincessKillsMonsters.jpg"
         aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
         <div class="carousel-caption">
-              <h4 class="recomTi">This Princess Kills </br>Monsters, <span><img class="imgTag" src="assets/img/tag_CozyFantasy.jpg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></img></span></br>by Ry Herman</h4>
+              <h4 class="recomTi">This Princess Kills </br>Monsters,</br>by Ry Herman</h4>
               <a class="btn recomBtn" target="_blank" href="https://www.goodreads.com/book/show/219301793-this-princess-kills-monsters?from_search=true&from_srp=true&qid=H0TVxyS0Jp&rank=1">Voir les détails sur Goodreads</a>
               <a class="btn recomBtn" target="_blank" href="">Trouver en bibliothèque</a>
         </div>
@@ -146,32 +145,29 @@
         <img class="float-start imgRec" src="assets/img/bookRec_CF_HomegrownMagic.jpg"
         aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
         <div class="carousel-caption">
-              <h4 class="recomTi">Homegrown magic, <span><img class="imgTag" src="assets/img/tag_CozyFantasy.jpg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></img></span></br>by Jamie Pacton and Rebecca Podos</h4>
+              <h4 class="recomTi">Homegrown magic,</br>by Jamie Pacton and Rebecca Podos</h4>
               <a class="btn recomBtn" target="_blank" href="https://www.goodreads.com/book/show/215362543-homegrown-magic?from_search=true&from_srp=true&qid=EhxvluL9k7&rank=1">Voir les détails sur Goodreads</a>
               <a class="btn recomBtn" target="_blank" href="https://cap.banq.qc.ca/notice?id=p%3A%3Ausmarcdef_0008063269&locale=fr">Trouver en bibliothèque</a>
         </div>
       </div>
-      <div class="carousel-item g-col-5">
+      <div class="carousel-item ">
         <img class="float-start imgRec" src="assets/img/bookRec_CF_TheSpellshop.jpg"
         aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
         <div class="carousel-caption">
-              <h4 class="recomTi">The spellshop, <span><img class="imgTag" src="assets/img/tag_CozyFantasy.jpg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></img></span></br>by Sarah Beth Durst</h4>
+              <h4 class="recomTi">The spellshop,</br>by Sarah Beth Durst</h4>
               <a class="btn recomBtn" target="_blank" href="https://www.goodreads.com/book/show/217206125-the-spellshop?ref=nav_sb_ss_1_13">Voir les détails sur Goodreads</a>
               <a class="btn recomBtn" target="_blank" href="https://cap.banq.qc.ca/permalink/P-532039dc-1e17-4b73-ab28-956ab3aa81af">Trouver en bibliothèque</a>
         </div>
       </div>
     </div>
-    
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselRF" data-bs-slide="next">
-      <img src="assets/img/iconbookleft.jpg" class="carousel-control-prev-icon" aria-hidden="true"></img>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselRF" data-bs-slide="next">
+    <div class="col col-lg-1 offset-11"><button class="carousel-control-next" type="button" data-bs-target="#carouselRF" data-bs-slide="next">
       <img src="assets/img/iconbookright.jpg" class="carousel-control-next-icon" aria-hidden="false"></img>
-    </button>
+    </button></div>
   </div>
+</div>
 
 <div class="col-3 offset-4"><img id="imgDivMEV" src="assets/img/vector3.jpg"></img></div>  
-
+<div>
 <h2>Science-fiction</h2>
   <div id="carouselRSF" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-indicators">
@@ -256,9 +252,9 @@
       <img src="assets/img/iconbookright.jpg" class="carousel-control-next-icon" aria-hidden="true"></img>
     </button>
   </div>
-
+</div>
 <div class="col-3 offset-4"><img id="imgDivMEV" src="assets/img/vector3.jpg"></img></div>
-
+<div>
 <h2>Mystères</h2>
   <div id="carouselRM" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-indicators">
@@ -308,9 +304,9 @@
       <img src="assets/img/iconbookright.jpg" class="carousel-control-next-icon" aria-hidden="true"></img>
     </button>
   </div>
-
+</div>
 <div class="col-3 offset-4"><img id="imgDivMEV" src="assets/img/vector3.jpg"></img></div>
-
+<div>
   <h2>Horreur</h2>
   <div id="carouselRCH" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-indicators">
@@ -324,7 +320,7 @@
       <button type="button" data-bs-target="#carouselRCH" data-bs-slide-to="7" aria-label="Slide 8"></button>
     </div>
     <div class="container carousel-inner">
-      <div class="carousel-item active g-col-5">
+      <div class="carousel-item active">
         <img class="float-start imgRec" src="assets/img/bookRec_CH_SomeoneYouCanBuildANestIn.jpg" 
         aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
         <div class="carousel-caption">
@@ -333,7 +329,7 @@
               <a class="btn recomBtn" target="_blank" href="https://cap.banq.qc.ca/permalink/P-8c90fcf5-8245-40e5-8b59-2253e67dfb3e">Trouver en bibliothèque</a>
         </div>
       </div>
-      <div class="carousel-item g-col-5">
+      <div class="carousel-item">
         <img class="float-start imgRec" src="assets/img/bookRec_H_BuryOurBones.jpg" 
         aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
         <div class="carousel-caption">
@@ -342,7 +338,7 @@
               <a class="btn recomBtn" target="_blank" href="https://cap.banq.qc.ca/permalink/P-b9240437-6d43-44d4-9b1c-2e67506eb848">Trouver en bibliothèque</a>
         </div>
       </div>
-      <div class="carousel-item g-col-5">
+      <div class="carousel-item">
         <img class="float-start imgRec" src="assets/img/bookRec_H_FinalGirlSupportGroup.jpg" 
         aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
         <div class="carousel-caption">
@@ -361,6 +357,7 @@
       <img src="assets/img/iconbookright.jpg" class="carousel-control-next-icon" aria-hidden="true"></img>
     </button>
   </div>
+</div>
 </body>
 <footer class="footer mt-auto py-3">
     <p class="float-end"><a href="#">Back to top</a></p>
