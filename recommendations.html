@@ -23,46 +23,44 @@
         <div class="col-lg-6 col-sm-12"><p id="nomPrincipal" class="viaoda-libre-regular" >Catherine Cournoyer</div>
         <div class="col-lg-3 col-sm-12"><img src="assets/img/mosaique.jpeg" role="img" class="imgshadow float-end imageSec"/></div>
     </div>
-    <div class="row">
-      <div class="col-lg-4 col-sm-12 imgBand"><img src="assets/img/mosaiqueband.jpg" role="img" class=""/></div>
-      <div class="col-lg-4 col-sm-12 imgBand"><img src="assets/img/mosaiqueband2.jpg" role="img" class=""/></div>
+    <div class="d-flex">
+      <hr class="my-auto flex-grow-1">
     </div>
     <div class="row navbar navbar-expand-md float-none">
       <div class="container-fluid collapse navbar-collapse">
         <ul class="navbar-nav">
-          <li class="nav-item col-lg-2 col-md-4 col-sm-6">
+          <li class="nav-item col-lg-2 col-md-2 col-sm-2">
             <a type="button" class="nav-link btn btn-primary rounded-pill border" href="index.html">Accueil</a>
           </li>
-          <li class="nav-item col-lg-2 col-md-4 col-sm-6">
+          <li class="nav-item col-lg-2 col-md-2 col-sm-2">
               <a class="nav-link btn btn-primary rounded-pill border" href="cv2.html">Ligne du temps</a>
           </li>
-          <li class="nav-item dropdown col-lg-2 col-md-4 col-sm-6">
+          <li class="nav-item dropdown col-lg-2 col-md-2 col-sm-2">
           <a class="nav-link dropdown-toggle btn btn-primary rounded-pill border" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               BAnQ
           </a>
-          <ul class="dropdown-menu col-lg-2 col-md-4 col-sm-6" id="navDropMenu">
+          <ul class="dropdown-menu col-lg-2 col-md-2 col-sm-2" id="navDropMenu">
               <li><a class="dropdown-item btn-tertiary" id="navDropItem" href="misesEnValeur.html">Mises en valeur 2025</a></li>
               <li><hr class="dropdown-divider"></li>
               <li><a class="dropdown-item btn-tertiary" id="navDropItem" target="_blank" href="https://www.banq.qc.ca/catherine-cournoyer/">Listes de suggestions</a></li>
           </ul>
-          <li class="nav-item col-lg-2 col-md-4 col-sm-6">
+          <li class="nav-item col-lg-2 col-md-2 col-sm-2">
             <a class="nav-link btn btn-primary rounded-pill border" href="recommendations.html" role="button" aria-expanded="false">
               Mes recommendations
             </a>
           </li>
-          <li class="nav-item col-lg-2 col-md-4 col-sm-6">
+          <li class="nav-item col-lg-2 col-md-2 col-sm-2">
               <a class="nav-link btn btn-primary rounded-pill border" aria-current="page" href="contact.html">Contactez-moi</a>
           </li>
-        </ul  class="col-lg-2 col-md-4 col-sm-6">
-            <div><form id="recherche" class="nav-item d-flex" role="search">
-                <input class="form-control" type="search" placeholder="Recherche" aria-label="Search"/>
-                <button class="btn btn-primary rounded-pill border" type="submit"></button>
-            </form></div>
+        </ul>
+        <div><form id="recherche" class="nav-item d-flex" role="search">
+            <input class="form-control" type="search" placeholder="Recherche" aria-label="Search"/>
+            <button class="btn btn-primary rounded-pill border" type="submit"></button>
+        </form></div>
       </div>
     </div>
-    <div class="row">
-      <div class="col-lg-4 col-sm-12 imgBand"><img src="assets/img/mosaiqueband.jpg" role="img" class=""/></div>
-      <div class="col-lg-4 col-sm-12 imgBand"><img src="assets/img/mosaiqueband2.jpg" role="img" class=""/></div>
+    <div class="d-flex">
+      <hr class="my-auto flex-grow-1">
     </div>
 </div>
 </header>
@@ -72,10 +70,15 @@
 <h1 class="text-center">Mes recommendations</h1>
 <div>
 <h2 class="h2">Fantaisie</h2>
-  <div id="carouselRF" class="carousel slide" data-bs-ride="carousel">
-    <div class="col col-lg-1 col-sm-3"><button class="carousel-control-prev" type="button" data-bs-target="#carouselRF" data-bs-slide="next">
-      <img src="assets/img/iconbookleft.jpg" class="carousel-control-prev-icon" aria-hidden="true"></img>
-    </button></div>
+<!----->
+  <div id="carouselRF" class="carousel slide container" data-bs-ride="carousel">
+<!----->
+    <div class="col col-lg-1 col-sm-3">
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselRF" data-bs-slide="prev">
+        <img src="assets/img/iconbookleft.jpg" class="carousel-control-prev-icon" aria-hidden="true"></img>
+      </button>
+    </div>
+<!----->
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#carouselRF" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
       <button type="button" data-bs-target="#carouselRF" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -86,90 +89,191 @@
       <button type="button" data-bs-target="#carouselRF" data-bs-slide-to="6" aria-label="Slide 7"></button>
       <button type="button" data-bs-target="#carouselRF" data-bs-slide-to="7" aria-label="Slide 8"></button>
     </div>
+<!----->
     <div class="carousel-inner">
+<!----->
       <div class="carousel-item active">
-        <div class="col-lg-4 offset-1 col-sm-3"><img class="float-start imgRec" src="assets/img/bookRec_CF_CantSpellTreasonWithoutTea.jpg"
-        aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></img></div>
-        <div class="carousel-caption">
-              <div class="col-sm-12"><h4 class="recomTi">Can't Spell Treason Without Tea,</br>Rebecca Thorne</h4></div>
-              <div class="col-sm-12"><a class="btn recomBtn" target="_blank" href="https://www.goodreads.com/book/show/61753288-can-t-spell-treason-without-tea?from_search=true&from_srp=true&qid=piVOSIo4K5&rank=1">Voir les détails sur Goodreads</a></div>
-              <div class="col-sm-12"><a class="btn recomBtn" target="_blank" href="https://cap.banq.qc.ca/permalink/P-fbaf7499-4cb8-4db0-b956-77c8be7e6d06">Trouver en bibliothèque</a></div>
+        <div class="row"><div class="col col-12"><h4 class="recomTi  text-center align-self-center">Can't Spell Treason Without Tea,</br>by Rebecca Thorne</h4></div></div>
+        <div class="row">
+<!----->
+          <div class="col-lg-3 offset-2 colImgRec  align-self-center">
+            <img class="imgRec img-fluid" src="assets/img/bookRec_CF_CantSpellTreasonWithoutTea.jpg"
+          aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
+          </div>
+          <div class="col col-lg-4 colImgRec"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+                dolore magna aliqua. Proin tortor purus platea sit eu id nisi litora libero. Neque vulputate consequat ac amet 
+                augue blandit maximus aliquet congue. Pharetra vestibulum posuere ornare faucibus fusce dictumst orci aenean eu 
+                facilisis ut volutpat commodo senectus purus himenaeos fames primis convallis nisi.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="carousel-caption">
+                <div class="center"><a class="btn recomBtn" target="_blank" href="https://www.goodreads.com/book/show/61753288-can-t-spell-treason-without-tea?from_search=true&from_srp=true&qid=piVOSIo4K5&rank=1">Voir les détails sur Goodreads</a></div>
+                <div class="center"><a class="btn recomBtn" target="_blank" href="https://cap.banq.qc.ca/permalink/P-fbaf7499-4cb8-4db0-b956-77c8be7e6d06">Trouver en bibliothèque</a></div>
+            </div>
+        </div>
+      </div><div class="carousel-item">
+        <div class="row"><div class="col col-12"><h4 class="recomTi  text-center">The Warden, </br>by Daniel M. Ford</h4></div></div>
+        <div class="row">
+          <div class="col-lg-3 offset-2 colImgRec  align-self-center">
+            <img class="imgRec img-fluid" src="assets/img/bookRec_F_Warden.jpg"
+          aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
+          </div>
+          <div class="col col-lg-4 colImgRec"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+                dolore magna aliqua. Proin tortor purus platea sit eu id nisi litora libero. Neque vulputate consequat ac amet 
+                augue blandit maximus aliquet congue. Pharetra vestibulum posuere ornare faucibus fusce dictumst orci aenean eu 
+                facilisis ut volutpat commodo senectus purus himenaeos fames primis convallis nisi.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="carousel-caption">
+                <div class="center"><a class="btn recomBtn" target="_blank" href="https://www.goodreads.com/book/show/60784419-the-warden?from_search=true&from_srp=true&qid=OQaKJBjfQT&rank=1">Voir les détails sur Goodreads</a></div>
+                <div class="center"><a class="btn recomBtn" target="_blank" href="https://queerliblib.overdrive.com/media/10942859">Trouver en bibliothèque</a></div>
+            </div>
         </div>
       </div>
-      <div class="col carousel-item">
-        <div class="col"><img class="float-start imgRec" src="assets/img/bookRec_F_Warden.jpg" 
-        aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></img></div>
-        <div class="col carousel-caption">
-              <div class="col-sm-12"><h4 class="recomTi">The Warden, </br>by Daniel M. Ford</h4></div>
-              <div class="col-sm-12"><a class="btn recomBtn" target="_blank" href="https://www.goodreads.com/book/show/60784419-the-warden?from_search=true&from_srp=true&qid=OQaKJBjfQT&rank=1">Voir les détails sur Goodreads</a></div>
-              <div class="col-sm-12"><a class="btn recomBtn" target="_blank" href="https://queerliblib.overdrive.com/media/10942859">Trouver en bibliothèque</a></div>
+      
+      <div class="carousel-item">
+        <div class="row"><div class="col col-12"><h4 class="recomTi  text-center">Envy of Angels,</br>by Matt Wallace</h4></div></div>
+        <div class="row">
+          <div class="col-lg-3 offset-2 colImgRec  align-self-center">
+            <img class="imgRec img-fluid" src="assets/img/bookRec_F_EnvyOfAngels.jpg"
+          aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
+          </div>
+          <div class="col col-lg-4 colImgRec"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+                dolore magna aliqua. Proin tortor purus platea sit eu id nisi litora libero. Neque vulputate consequat ac amet 
+                augue blandit maximus aliquet congue. Pharetra vestibulum posuere ornare faucibus fusce dictumst orci aenean eu 
+                facilisis ut volutpat commodo senectus purus himenaeos fames primis convallis nisi.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="carousel-caption">
+                <div class="center"><a class="btn recomBtn" target="_blank" href="https://www.goodreads.com/book/show/25819511-envy-of-angels?from_search=true&from_srp=true&qid=Q5JDZxWSQw&rank=1">Voir les détails sur Goodreads</a></div>
+                <div class="center"><a class="btn recomBtn" target="_blank" href="https://cap.banq.qc.ca/permalink/P-961739a7-5cd7-4843-b08d-02d38dbf3cf0">Trouver en bibliothèque</a></div>
+            </div>
         </div>
       </div>
-      <div class="col carousel-item">
-        <img class="float-start imgRec" src="assets/img/bookRec_F_EnvyOfAngels.jpg"
-        aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
-        <div class="carousel-caption">
-              <h4 class="recomTi">Envy of Angels, <span><img class="imgTag" src="assets/img/tag_UrbanFantasy.jpg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></img></span></br>by Matt Wallace</h4>
-              <a class="btn recomBtn" target="_blank" href="https://www.goodreads.com/book/show/25819511-envy-of-angels?from_search=true&from_srp=true&qid=Q5JDZxWSQw&rank=1">Voir les détails sur Goodreads</a>
-              <a class="btn recomBtn" target="_blank" href="https://cap.banq.qc.ca/search/a81cb408-ed9b-439c-9c24-f57107e2148d">Trouver en bibliothèque</a>
+
+      <div class="carousel-item">
+        <div class="row"><div class="col col-12"><h4 class="recomTi  text-center">This Princess Kills </br>Monsters,</br>by Ry Herman</h4></div></div>
+        <div class="row">
+          <div class="col-lg-3 offset-2 colImgRec  align-self-center">
+            <img class="imgRec img-fluid" src="assets/img/bookRec_CF_ThisPrincessKillsMonsters.jpg"
+          aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
+          </div>
+          <div class="col col-lg-4 colImgRec"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+                dolore magna aliqua. Proin tortor purus platea sit eu id nisi litora libero. Neque vulputate consequat ac amet 
+                augue blandit maximus aliquet congue. Pharetra vestibulum posuere ornare faucibus fusce dictumst orci aenean eu 
+                facilisis ut volutpat commodo senectus purus himenaeos fames primis convallis nisi.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="carousel-caption">
+                <div class="center"><a class="btn recomBtn" target="_blank" href="https://www.goodreads.com/book/show/219301793-this-princess-kills-monsters?from_search=true&from_srp=true&qid=H0TVxyS0Jp&rank=1">Voir les détails sur Goodreads</a></div>
+                <div class="center"><a class="btn recomBtn" target="_blank" href="https://nelligandecouverte.ville.montreal.qc.ca/iii/encore/record/C__Rb2989198__Sthis%20princess%20kills%20monsters__Orightresult__U__X6?lang=frc&suite=cobalt">Trouver en bibliothèque</a></div>
+            </div>
         </div>
       </div>
-      <div class="carousel-item col-lg-5">
-        <img class="float-start imgRec" src="assets/img/bookRec_CF_ThisPrincessKillsMonsters.jpg"
-        aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
-        <div class="carousel-caption">
-              <h4 class="recomTi">This Princess Kills </br>Monsters,</br>by Ry Herman</h4>
-              <a class="btn recomBtn" target="_blank" href="https://www.goodreads.com/book/show/219301793-this-princess-kills-monsters?from_search=true&from_srp=true&qid=H0TVxyS0Jp&rank=1">Voir les détails sur Goodreads</a>
-              <a class="btn recomBtn" target="_blank" href="">Trouver en bibliothèque</a>
+
+      <div class="carousel-item">
+        <div class="row"><div class="col col-12"><h4 class="recomTi  text-center">The Priory of the Orange Tree,</br>by Samantha Shannon</h4></div></div>
+        <div class="row">
+          <div class="col-lg-3 offset-2 colImgRec  align-self-center">
+            <img class="imgRec img-fluid" src="assets/img/bookRec_F_PrioryOfTheOrangeTree.jpg"
+          aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
+          </div>
+          <div class="col col-lg-4 colImgRec"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+                dolore magna aliqua. Proin tortor purus platea sit eu id nisi litora libero. Neque vulputate consequat ac amet 
+                augue blandit maximus aliquet congue. Pharetra vestibulum posuere ornare faucibus fusce dictumst orci aenean eu 
+                facilisis ut volutpat commodo senectus purus himenaeos fames primis convallis nisi.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="carousel-caption">
+                <div class="center"><a class="btn recomBtn" target="_blank" href="https://www.goodreads.com/book/show/40275288-the-priory-of-the-orange-tree?from_search=true&from_srp=true&qid=LP7IL5Ht65&rank=1">Voir les détails sur Goodreads</a></div>
+                <div class="center"><a class="btn recomBtn" target="_blank" href="https://cap.banq.qc.ca/permalink/P-d9d6fc0f-fa3d-41f4-83d1-1c04971fc66e">Trouver en bibliothèque</a></div>
+            </div>
         </div>
       </div>
-      <div class="carousel-item g-col-5">
-        <img class="float-start imgRec" src="assets/img/bookRec_F_PrioryOfTheOrangeTree.jpg"
-        aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
-        <div class="carousel-caption">
-              <h4 class="recomTi">The Priory of the Orange Tree</h4>
-              <a class="btn recomBtn" target="_blank" href="https://www.goodreads.com/book/show/40275288-the-priory-of-the-orange-tree?from_search=true&from_srp=true&qid=LP7IL5Ht65&rank=1">Voir les détails sur Goodreads</a>
-              <a class="btn recomBtn" target="_blank" href="https://cap.banq.qc.ca/permalink/P-d9d6fc0f-fa3d-41f4-83d1-1c04971fc66e">Trouver en bibliothèque</a>
+      
+      <div class="carousel-item">
+        <div class="row"><div class="col col-12"><h4 class="recomTi  text-center">Princess Floralinda and the Forty-flight Tower, </br>by Tamsyn Muir</h4></div></div>
+        <div class="row">
+          <div class="col-lg-3 offset-2 colImgRec  align-self-center">
+            <img class="imgRec img-fluid" src="assets/img/bookRec_CF_PrincessFloralinda.jpg"
+          aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
+          </div>
+          <div class="col col-lg-4 colImgRec"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+                dolore magna aliqua. Proin tortor purus platea sit eu id nisi litora libero. Neque vulputate consequat ac amet 
+                augue blandit maximus aliquet congue. Pharetra vestibulum posuere ornare faucibus fusce dictumst orci aenean eu 
+                facilisis ut volutpat commodo senectus purus himenaeos fames primis convallis nisi.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="carousel-caption">
+                <div class="center"><a class="btn recomBtn" target="_blank" href="https://www.goodreads.com/book/show/54391767-princess-floralinda-and-the-forty-flight-tower?from_search=true&from_srp=true&qid=9jgN98jbXe&rank=1">Voir les détails sur Goodreads</a></div>
+                <div class="center"><a class="btn recomBtn" target="_blank" href="https://cap.banq.qc.ca/notice?id=p%3A%3Ausmarcdef_0006909558&locale=fr">Trouver en bibliothèque</a></div>
+            </div>
         </div>
       </div>
-      <div class="carousel-item g-col-5">
-        <img class="float-start imgRec" src="assets/img/bookRec_CF_PrincessFloralinda.jpg"
-        aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
-        <div class="carousel-caption">
-              <h4 class="recomTi">Princess Floralinda and the Forty-flight Tower, </br>by Tamsyn Muir</h4>
-              <a class="btn recomBtn" target="_blank" href="https://www.goodreads.com/book/show/54391767-princess-floralinda-and-the-forty-flight-tower?from_search=true&from_srp=true&qid=9jgN98jbXe&rank=1">Voir les détails sur Goodreads</a>
-              <a class="btn recomBtn" target="_blank" href="">Trouver en bibliothèque</a>
+      
+      <div class="carousel-item">
+        <div class="row"><div class="col col-12"><h4 class="recomTi  text-center">Homegrown magic,</br>by Jamie Pacton and Rebecca Podos</h4></div></div>
+        <div class="row">
+          <div class="col-lg-3 offset-2 colImgRec  align-self-center">
+            <img class="imgRec img-fluid" src="assets/img/bookRec_CF_HomegrownMagic.jpg"
+          aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
+          </div>
+          <div class="col col-lg-4 colImgRec"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+                dolore magna aliqua. Proin tortor purus platea sit eu id nisi litora libero. Neque vulputate consequat ac amet 
+                augue blandit maximus aliquet congue. Pharetra vestibulum posuere ornare faucibus fusce dictumst orci aenean eu 
+                facilisis ut volutpat commodo senectus purus himenaeos fames primis convallis nisi.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="carousel-caption">
+                <div class="center"><a class="btn recomBtn" target="_blank" href="https://www.goodreads.com/book/show/215362543-homegrown-magic?from_search=true&from_srp=true&qid=EhxvluL9k7&rank=1">Voir les détails sur Goodreads</a></div>
+                <div class="center"><a class="btn recomBtn" target="_blank" href="https://cap.banq.qc.ca/notice?id=p%3A%3Ausmarcdef_0008063269&locale=fr">Trouver en bibliothèque</a></div>
+            </div>
         </div>
       </div>
-      <div class="carousel-item g-col-5">
-        <img class="float-start imgRec" src="assets/img/bookRec_CF_HomegrownMagic.jpg"
-        aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
-        <div class="carousel-caption">
-              <h4 class="recomTi">Homegrown magic,</br>by Jamie Pacton and Rebecca Podos</h4>
-              <a class="btn recomBtn" target="_blank" href="https://www.goodreads.com/book/show/215362543-homegrown-magic?from_search=true&from_srp=true&qid=EhxvluL9k7&rank=1">Voir les détails sur Goodreads</a>
-              <a class="btn recomBtn" target="_blank" href="https://cap.banq.qc.ca/notice?id=p%3A%3Ausmarcdef_0008063269&locale=fr">Trouver en bibliothèque</a>
+      <div class="carousel-item">
+        <div class="row"><div class="col col-12"><h4 class="recomTi  text-center">The spellshop,</br>by Sarah Beth Durst</h4></div></div>
+        <div class="row">
+          <div class="col-lg-3 offset-2 colImgRec  align-self-center">
+            <img class="imgRec img-fluid" src="assets/img/bookRec_CF_TheSpellshop.jpg"
+          aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
+          </div>
+          <div class="col col-lg-4 colImgRec"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+                dolore magna aliqua. Proin tortor purus platea sit eu id nisi litora libero. Neque vulputate consequat ac amet 
+                augue blandit maximus aliquet congue. Pharetra vestibulum posuere ornare faucibus fusce dictumst orci aenean eu 
+                facilisis ut volutpat commodo senectus purus himenaeos fames primis convallis nisi.</p>
+          </div>
         </div>
-      </div>
-      <div class="carousel-item ">
-        <img class="float-start imgRec" src="assets/img/bookRec_CF_TheSpellshop.jpg"
-        aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
-        <div class="carousel-caption">
-              <h4 class="recomTi">The spellshop,</br>by Sarah Beth Durst</h4>
-              <a class="btn recomBtn" target="_blank" href="https://www.goodreads.com/book/show/217206125-the-spellshop?ref=nav_sb_ss_1_13">Voir les détails sur Goodreads</a>
-              <a class="btn recomBtn" target="_blank" href="https://cap.banq.qc.ca/permalink/P-532039dc-1e17-4b73-ab28-956ab3aa81af">Trouver en bibliothèque</a>
+        <div class="row">
+          <div class="carousel-caption">
+                <div class="center"><a class="btn recomBtn" target="_blank" href="https://www.goodreads.com/book/show/217206125-the-spellshop?ref=nav_sb_ss_1_13">Voir les détails sur Goodreads</a></div>
+                <div class="center"><a class="btn recomBtn" target="_blank" href="https://cap.banq.qc.ca/permalink/P-532039dc-1e17-4b73-ab28-956ab3aa81af">Trouver en bibliothèque</a></div>
+            </div>
         </div>
       </div>
     </div>
-    <div class="col col-lg-1 offset-11"><button class="carousel-control-next" type="button" data-bs-target="#carouselRF" data-bs-slide="next">
+    <div class="col col-lg-1 col-sm-3 offset-11"><button class="carousel-control-next" type="button" data-bs-target="#carouselRF" data-bs-slide="next">
       <img src="assets/img/iconbookright.jpg" class="carousel-control-next-icon" aria-hidden="false"></img>
     </button></div>
   </div>
 </div>
 
-<div class="col-3 offset-4"><img id="imgDivMEV" src="assets/img/vector3.jpg"></img></div>  
+<div class="col-3 offset-4"><img id="imgDivMEV" src="assets/img/vector3.jpg"></img></div> 
+
 <div>
 <h2>Science-fiction</h2>
-  <div id="carouselRSF" class="carousel slide" data-bs-ride="carousel">
+  <div id="carouselRSF" class="carousel slide container" data-bs-ride="carousel">
+    <div class="col col-lg-1 col-sm-3">
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselRSF" data-bs-slide="prev">
+        <img src="assets/img/iconbookleft.jpg" class="carousel-control-prev-icon" aria-hidden="true"></img>
+      </button>
+    </div>
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#carouselRSF" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
       <button type="button" data-bs-target="#carouselRSF" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -178,128 +282,242 @@
       <button type="button" data-bs-target="#carouselRSF" data-bs-slide-to="4" aria-label="Slide 5"></button>
       <button type="button" data-bs-target="#carouselRSF" data-bs-slide-to="5" aria-label="Slide 6"></button>
       <button type="button" data-bs-target="#carouselRSF" data-bs-slide-to="6" aria-label="Slide 7"></button>
-      <button type="button" data-bs-target="#carouselRSF" data-bs-slide-to="7" aria-label="Slide 8"></button>
     </div>
-    <div class="container carousel-inner">
-      <div class="carousel-item active g-col-5">
-        <img class="float-start imgRec" src="assets/img/bookRec_SF_TheArchiveUndying.jpg" 
-        aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
-        <div class="carousel-caption">
-              <h4 class="recomTi">The Archive Undying, </br>by Emma Mieko Candon</h4>
-              <a class="btn recomBtn" target="_blank" href="https://www.goodreads.com/book/show/61885010-the-archive-undying">Voir les détails sur Goodreads</a>
-              <a class="btn recomBtn" target="_blank" href="https://queerliblib.overdrive.com/search?query=The%20Archive%20Undying">Trouver en bibliothèque</a>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="row"><div class="col col-12"><h4 class="recomTi  text-center">The Archive Undying, </br>by Emma Mieko Candon</h4></div></div>
+        <div class="row">
+          <div class="col-lg-3 offset-2 colImgRec  align-self-center">
+            <img class="imgRec img-fluid" src="assets/img/bookRec_SF_TheArchiveUndying.jpg"
+          aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
+          </div>
+          <div class="col col-lg-4 colImgRec"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+                dolore magna aliqua. Proin tortor purus platea sit eu id nisi litora libero. Neque vulputate consequat ac amet 
+                augue blandit maximus aliquet congue. Pharetra vestibulum posuere ornare faucibus fusce dictumst orci aenean eu 
+                facilisis ut volutpat commodo senectus purus himenaeos fames primis convallis nisi.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="carousel-caption">
+                <div class="center"><a class="btn recomBtn" target="_blank" href="https://www.goodreads.com/book/show/61885010-the-archive-undying">Voir les détails sur Goodreads</a></div>
+                <div class="center"><a class="btn recomBtn" target="_blank" href="https://queerliblib.overdrive.com/search?query=The%20Archive%20Undying">Trouver en bibliothèque</a></div>
+            </div>
         </div>
       </div>
-      <div class="carousel-item g-col-5">
-        <img class="float-start imgRec" src="assets/img/bookRec_SF_TheDragonflyGambit.jpg"
-        aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
-        <div class="carousel-caption">
-              <h4 class="recomTi">The Dragonfly Gambit, <br>by A.D. Sui</h4>
-              <a class="btn recomBtn" target="_blank" href="https://www.goodreads.com/book/show/210056729-the-dragonfly-gambit?ref=nav_sb_noss_l_17">Voir les détails sur Goodreads</a>
-              <a class="btn recomBtn" target="_blank" href="">Trouver en bibliothèque</a>
+      
+      <div class="carousel-item">
+        <div class="row"><div class="col col-12"><h4 class="recomTi  text-center">The Dragonfly Gambit, <br>by A.D. Sui</h4></div></div>
+        <div class="row">
+          <div class="col-lg-3 offset-2 colImgRec  align-self-center">
+            <img class="imgRec img-fluid" src="assets/img/bookRec_SF_TheDragonflyGambit.jpg"
+          aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
+          </div>
+          <div class="col col-lg-4 colImgRec"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+                dolore magna aliqua. Proin tortor purus platea sit eu id nisi litora libero. Neque vulputate consequat ac amet 
+                augue blandit maximus aliquet congue. Pharetra vestibulum posuere ornare faucibus fusce dictumst orci aenean eu 
+                facilisis ut volutpat commodo senectus purus himenaeos fames primis convallis nisi.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="carousel-caption">
+                <div class="center"><a class="btn recomBtn" target="_blank" href="https://www.goodreads.com/book/show/210056729-the-dragonfly-gambit?ref=nav_sb_noss_l_17">Voir les détails sur Goodreads</a></div>
+                <div class="center"><a class="btn recomBtn" target="_blank" href="https://nelligandecouverte.ville.montreal.qc.ca/iii/encore/record/C__Rb2986843__Sthe%20dragonfly%20gambit__Orightresult__U__X6?lang=frc&suite=cobalt">Trouver en bibliothèque</a></div>
+            </div>
         </div>
       </div>
-      <div class="carousel-item g-col-5">
-        <img class="float-start imgRec" src="assets/img/bookRec_SF_OfMyceliumAndMen.jpg" 
-        aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
-        <div class="carousel-caption">
-              <h4 class="recomTi">Of Mycelium And Men</h4>
-              <a class="btn recomBtn" target="_blank" href="https://www.goodreads.com/book/show/61595802-of-mycelium-and-men?ref=nav_sb_ss_1_19">Voir les détails sur Goodreads</a>
-              <a class="btn recomBtn" target="_blank" href="">Trouver en bibliothèque</a>
+      
+      <div class="carousel-item">
+        <div class="row"><div class="col col-12"><h4 class="recomTi  text-center">Of Mycelium And Men,</br>by Sarah Beth Durst</h4></div></div>
+        <div class="row">
+          <div class="col-lg-3 offset-2 colImgRec  align-self-center">
+            <img class="imgRec img-fluid" src="assets/img/bookRec_SF_OfMyceliumAndMen.jpg"
+          aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
+          </div>
+          <div class="col col-lg-4 colImgRec"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+                dolore magna aliqua. Proin tortor purus platea sit eu id nisi litora libero. Neque vulputate consequat ac amet 
+                augue blandit maximus aliquet congue. Pharetra vestibulum posuere ornare faucibus fusce dictumst orci aenean eu 
+                facilisis ut volutpat commodo senectus purus himenaeos fames primis convallis nisi.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="carousel-caption">
+                <div class="center"><a class="btn recomBtn" target="_blank" href="https://www.goodreads.com/book/show/61595802-of-mycelium-and-men?ref=nav_sb_ss_1_19">Voir les détails sur Goodreads</a></div>
+                <div class="center"><a class="btn recomBtn" target="_blank" href="https://queerliblib.overdrive.com/media/9725161">Trouver en bibliothèque</a></div>
+            </div>
         </div>
       </div>
-      <div class="carousel-item g-col-5">
-        <img class="float-start imgRec" src="assets/img/bookRec_SF_AllSystemsRed.jpg" 
-        aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
-        <div class="carousel-caption">
-              <h4 class="recomTi">All Systems Red, by Martha Wells</h4>
-              <a class="btn recomBtn" target="_blank" href="https://www.goodreads.com/book/show/32758901-all-systems-red?from_search=true&from_srp=true&qid=RZ8bw8SXla&rank=1">Voir les détails sur Goodreads</a>
-              <a class="btn recomBtn" target="_blank" href="">Trouver en bibliothèque</a>
+        
+      <div class="carousel-item">
+        <div class="row"><div class="col col-12"><h4 class="recomTi  text-center">All Systems Red, </br>by Martha Wells</h4></div></div>
+        <div class="row">
+          <div class="col-lg-3 offset-2 colImgRec  align-self-center">
+            <img class="imgRec img-fluid" src="assets/img/bookRec_SF_AllSystemsRed.jpg"
+          aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
+          </div>
+          <div class="col col-lg-4 colImgRec"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+                dolore magna aliqua. Proin tortor purus platea sit eu id nisi litora libero. Neque vulputate consequat ac amet 
+                augue blandit maximus aliquet congue. Pharetra vestibulum posuere ornare faucibus fusce dictumst orci aenean eu 
+                facilisis ut volutpat commodo senectus purus himenaeos fames primis convallis nisi.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="carousel-caption">
+                <div class="center"><a class="btn recomBtn" target="_blank" href="https://www.goodreads.com/book/show/32758901-all-systems-red?from_search=true&from_srp=true&qid=RZ8bw8SXla&rank=1">Voir les détails sur Goodreads</a></div>
+                <div class="center"><a class="btn recomBtn" target="_blank" href="https://cap.banq.qc.ca/permalink/P-b8e22305-31f8-4447-b5f1-bed1d5ef6ff9">Trouver en bibliothèque</a></div>
+            </div>
         </div>
       </div>
-      <div class="carousel-item g-col-5">
-        <img class="float-start imgRec" src="assets/img/bookRec_SF_Ammonite.jpg" 
-        aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
-        <div class="carousel-caption">
-              <h4 class="recomTi">Ammonite, <br>by Nicola Griffith</h4>
-              <a class="btn recomBtn" target="_blank" href="https://www.goodreads.com/book/show/180270.Ammonite?ref=nav_sb_ss_1_8">Voir les détails sur Goodreads</a>
-              <a class="btn recomBtn" target="_blank" href="https://cap.banq.qc.ca/permalink/P-9ab72af5-08aa-45b5-989a-9582083a29d6">Trouver en bibliothèque</a>
+      
+      <div class="carousel-item">
+        <div class="row"><div class="col col-12"><h4 class="recomTi  text-center">Ammonite, <br>by Nicola Griffith</h4></div></div>
+        <div class="row">
+          <div class="col-lg-3 offset-2 colImgRec  align-self-center">
+            <img class="imgRec img-fluid" src="assets/img/bookRec_SF_Ammonite.jpg"
+          aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
+          </div>
+          <div class="col col-lg-4 colImgRec"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+                dolore magna aliqua. Proin tortor purus platea sit eu id nisi litora libero. Neque vulputate consequat ac amet 
+                augue blandit maximus aliquet congue. Pharetra vestibulum posuere ornare faucibus fusce dictumst orci aenean eu 
+                facilisis ut volutpat commodo senectus purus himenaeos fames primis convallis nisi.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="carousel-caption">
+                <div class="center"><a class="btn recomBtn" target="_blank" href="https://www.goodreads.com/book/show/180270.Ammonite?ref=nav_sb_ss_1_8">Voir les détails sur Goodreads</a></div>
+                <div class="center"><a class="btn recomBtn" target="_blank" href="https://cap.banq.qc.ca/permalink/P-9ab72af5-08aa-45b5-989a-9582083a29d6">Trouver en bibliothèque</a></div>
+            </div>
         </div>
       </div>
-      <div class="carousel-item g-col-5">
-        <img class="float-start imgRec" src="assets/img/bookRec_SF_ThisIsHowYourLose.jpg" 
-        aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
-        <div class="carousel-caption">
-              <h4 class="recomTi">This is how you lose the time war, </br>by Amal El-Mohtar and Max Gladstone</h4>
-              <a class="btn recomBtn" target="_blank" href="https://www.goodreads.com/book/show/43352954-this-is-how-you-lose-the-time-war?ref=nav_sb_ss_1_33">Voir les détails sur Goodreads</a>
-              <a class="btn recomBtn" target="_blank" href="https://cap.banq.qc.ca/permalink/P-6e72bc11-3826-4274-b755-4d1cdb844b12">Trouver en bibliothèque</a>
+      
+      <div class="carousel-item">
+        <div class="row"><div class="col col-12"><h4 class="recomTi  text-center">This is how you lose the time war, </br>by Amal El-Mohtar and Max Gladstone</h4></div></div>
+        <div class="row">
+          <div class="col-lg-3 offset-2 colImgRec  align-self-center">
+            <img class="imgRec img-fluid" src="assets/img/bookRec_SF_ThisIsHowYourLose.jpg"
+          aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
+          </div>
+          <div class="col col-lg-4 colImgRec"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+                dolore magna aliqua. Proin tortor purus platea sit eu id nisi litora libero. Neque vulputate consequat ac amet 
+                augue blandit maximus aliquet congue. Pharetra vestibulum posuere ornare faucibus fusce dictumst orci aenean eu 
+                facilisis ut volutpat commodo senectus purus himenaeos fames primis convallis nisi.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="carousel-caption">
+                <div class="center"><a class="btn recomBtn" target="_blank" href="https://www.goodreads.com/book/show/43352954-this-is-how-you-lose-the-time-war?ref=nav_sb_ss_1_33">Voir les détails sur Goodreads</a></div>
+                <div class="center"><a class="btn recomBtn" target="_blank" href="https://cap.banq.qc.ca/permalink/P-6e72bc11-3826-4274-b755-4d1cdb844b12">Trouver en bibliothèque</a></div>
+            </div>
         </div>
       </div>
-      <div class="carousel-item g-col-5">
-        <img class="float-start imgRec" src="assets/img/bookRec_SF_SnowCrash.jpg" 
-        aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
-        <div class="carousel-caption">
-              <h4 class="recomTi">Snow Crash, </br>by Neil Stephenson</h4>
-              <a class="btn recomBtn" target="_blank" href="https://www.goodreads.com/book/show/61240297-snow-crash?ref=nav_sb_ss_1_10">Voir les détails sur Goodreads</a>
-              <a class="btn recomBtn" target="_blank" href="https://cap.banq.qc.ca/permalink/P-8ed41ec2-74dd-4bd0-84ef-d06f0c5e1409">Trouver en bibliothèque</a>
+      
+    <div class="carousel-item">
+        <div class="row"><div class="col col-12"><h4 class="recomTi  text-center">Snow Crash, </br>by Neil Stephenson</h4></div></div>
+        <div class="row">
+          <div class="col-lg-3 offset-2 colImgRec  align-self-center">
+            <img class="imgRec img-fluid" src="assets/img/bookRec_SF_SnowCrash.jpg"
+          aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
+          </div>
+          <div class="col col-lg-4 colImgRec"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+                dolore magna aliqua. Proin tortor purus platea sit eu id nisi litora libero. Neque vulputate consequat ac amet 
+                augue blandit maximus aliquet congue. Pharetra vestibulum posuere ornare faucibus fusce dictumst orci aenean eu 
+                facilisis ut volutpat commodo senectus purus himenaeos fames primis convallis nisi.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="carousel-caption">
+                <div class="center"><a class="btn recomBtn" target="_blank" href="https://www.goodreads.com/book/show/61240297-snow-crash?ref=nav_sb_ss_1_10">Voir les détails sur Goodreads</a></div>
+                <div class="center"><a class="btn recomBtn" target="_blank" href="https://cap.banq.qc.ca/permalink/P-8ed41ec2-74dd-4bd0-84ef-d06f0c5e1409">Trouver en bibliothèque</a></div>
+            </div>
         </div>
       </div>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselRSF" data-bs-slide="prev">
-      <img src="assets/img/iconbookleft.jpg" class="carousel-control-prev-icon" aria-hidden="true"></img>
-    </button>
+    
     <button class="carousel-control-next" type="button" data-bs-target="#carouselRSF" data-bs-slide="next">
       <img src="assets/img/iconbookright.jpg" class="carousel-control-next-icon" aria-hidden="true"></img>
     </button>
   </div>
 </div>
+
 <div class="col-3 offset-4"><img id="imgDivMEV" src="assets/img/vector3.jpg"></img></div>
+
 <div>
 <h2>Mystères</h2>
-  <div id="carouselRM" class="carousel slide" data-bs-ride="carousel">
+  <div id="carouselRM" class="carousel slide container" data-bs-ride="carousel">
+    <div class="col col-lg-1 col-sm-3">
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselRM" data-bs-slide="prev">
+        <img src="assets/img/iconbookleft.jpg" class="carousel-control-prev-icon" aria-hidden="true"></img>
+      </button>
+    </div>
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#carouselRM" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
       <button type="button" data-bs-target="#carouselRM" data-bs-slide-to="1" aria-label="Slide 2"></button>
       <button type="button" data-bs-target="#carouselRM" data-bs-slide-to="2" aria-label="Slide 3"></button>
-      <button type="button" data-bs-target="#carouselRM" data-bs-slide-to="3" aria-label="Slide 4"></button>
-      <button type="button" data-bs-target="#carouselRM" data-bs-slide-to="4" aria-label="Slide 5"></button>
-      <button type="button" data-bs-target="#carouselRM" data-bs-slide-to="5" aria-label="Slide 6"></button>
-      <button type="button" data-bs-target="#carouselRM" data-bs-slide-to="6" aria-label="Slide 7"></button>
-      <button type="button" data-bs-target="#carouselRM" data-bs-slide-to="7" aria-label="Slide 8"></button>
     </div>
     <div class="container carousel-inner">
-      <div class="carousel-item active g-col-5">
-        <img class="float-start imgRec" src="assets/img/bookRec_M_AdventuresOfIsabel.jpg" 
-        aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
-        <div class="carousel-caption">
-              <h4 class="recomTi">The adventures of Isabel, </br>by Candas Jane Dorsey</h4>
-              <a class="btn recomBtn" target="_blank" href="https://www.goodreads.com/book/show/52557004-the-adventures-of-isabel">Voir les détails sur Goodreads</a>
-              <a class="btn recomBtn" target="_blank" href="https://cap.banq.qc.ca/notice?id=p%3A%3Ausmarcdef_0006690988&locale=fr">Trouver en bibliothèque</a>
+      <div class="carousel-item active">
+        <div class="row"><div class="col col-12"><h4 class="recomTi  text-center">The adventures of Isabel, </br>by Candas Jane Dorsey</h4></div></div>
+        <div class="row">
+          <div class="col-lg-3 offset-2 colImgRec  align-self-center">
+            <img class="imgRec img-fluid" src="assets/img/bookRec_M_AdventuresOfIsabel.jpg"
+          aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
+          </div>
+          <div class="col col-lg-4 colImgRec"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+                dolore magna aliqua. Proin tortor purus platea sit eu id nisi litora libero. Neque vulputate consequat ac amet 
+                augue blandit maximus aliquet congue. Pharetra vestibulum posuere ornare faucibus fusce dictumst orci aenean eu 
+                facilisis ut volutpat commodo senectus purus himenaeos fames primis convallis nisi.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="carousel-caption">
+                <div class="center"><a class="btn recomBtn" target="_blank" href="https://www.goodreads.com/book/show/52557004-the-adventures-of-isabel">Voir les détails sur Goodreads</a></div>
+                <div class="center"><a class="btn recomBtn" target="_blank" href="https://cap.banq.qc.ca/notice?id=p%3A%3Ausmarcdef_0006690988&locale=fr">Trouver en bibliothèque</a></div>
+            </div>
         </div>
       </div>
-      <div class="carousel-item g-col-5">
-        <img class="float-start imgRec" src="assets/img/bookRec_M_MurderByMemory.jpg" 
-        aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
-        <div class="carousel-caption">
-              <h4 class="recomTi">Murder by memory, <span><img class="imgTag" src="assets/img/tag_CozyMystery.jpg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></img></span></br>by Olivia Waite</h4>
-              <a class="btn recomBtn" target="_blank" href="https://www.goodreads.com/book/show/211004175-murder-by-memory?from_search=true&from_srp=true&qid=kWmcR7Dj7e&rank=2">Voir les détails sur Goodreads</a>
-              <a class="btn recomBtn" target="_blank" href="https://cap.banq.qc.ca/notice?id=p%3A%3Ausmarcdef_0008002753&locale=fr">Trouver en bibliothèque</a>
+      
+      <div class="carousel-item">
+        <div class="row"><div class="col col-12"><h4 class="recomTi  text-center">Murder by memory, </br>by Olivia Waite</h4></div></div>
+        <div class="row">
+          <div class="col-lg-3 offset-2 colImgRec  align-self-center">
+            <img class="imgRec img-fluid" src="assets/img/bookRec_M_MurderByMemory.jpg"
+          aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
+          </div>
+          <div class="col col-lg-4 colImgRec"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+                dolore magna aliqua. Proin tortor purus platea sit eu id nisi litora libero. Neque vulputate consequat ac amet 
+                augue blandit maximus aliquet congue. Pharetra vestibulum posuere ornare faucibus fusce dictumst orci aenean eu 
+                facilisis ut volutpat commodo senectus purus himenaeos fames primis convallis nisi.</p>
+          </div>
         </div>
-      </div>
-      <div class="carousel-item g-col-5">
-        <img class="float-start imgRec" src="assets/img/bookRec_M_MimickingOfKnownSuccesses.png" 
-        aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
-        <div class="carousel-caption">
-              <h4 class="recomTi">The mimicking of known successes, </br>by Malka Older</h4>
-              <a class="btn recomBtn" target="_blank" href="https://www.goodreads.com/book/show/60784309-the-mimicking-of-known-successes?from_search=true&from_srp=true&qid=WGDehJqKwd&rank=1">Voir les détails sur Goodreads</a>
-              <a class="btn recomBtn" target="_blank" href="https://cap.banq.qc.ca/permalink/P-d28c9d3a-09a3-4b1f-9562-7141d850d83e">Trouver en bibliothèque</a>
+        <div class="row">
+          <div class="carousel-caption">
+                <div class="center"><a class="btn recomBtn" target="_blank" href="https://www.goodreads.com/book/show/211004175-murder-by-memory?from_search=true&from_srp=true&qid=kWmcR7Dj7e&rank=2">Voir les détails sur Goodreads</a></div>
+                <div class="center"><a class="btn recomBtn" target="_blank" href="https://cap.banq.qc.ca/notice?id=p%3A%3Ausmarcdef_0008002753&locale=fr">Trouver en bibliothèque</a></div>
+            </div>
         </div>
       </div>
 
+      <div class="carousel-item">
+        <div class="row"><div class="col col-12"><h4 class="recomTi  text-center">The mimicking of known successes, </br>by Malka Older</h4></div></div>
+        <div class="row">
+          <div class="col-lg-3 offset-2 colImgRec  align-self-center">
+            <img class="imgRec img-fluid" src="assets/img/bookRec_M_MimickingOfKnownSuccesses.png"
+          aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
+          </div>
+          <div class="col col-lg-4 colImgRec"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+                dolore magna aliqua. Proin tortor purus platea sit eu id nisi litora libero. Neque vulputate consequat ac amet 
+                augue blandit maximus aliquet congue. Pharetra vestibulum posuere ornare faucibus fusce dictumst orci aenean eu 
+                facilisis ut volutpat commodo senectus purus himenaeos fames primis convallis nisi.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="carousel-caption">
+                <div class="center"><a class="btn recomBtn" target="_blank" href="https://www.goodreads.com/book/show/60784309-the-mimicking-of-known-successes?from_search=true&from_srp=true&qid=WGDehJqKwd&rank=1">Voir les détails sur Goodreads</a></div>
+                <div class="center"><a class="btn recomBtn" target="_blank" href="https://cap.banq.qc.ca/permalink/P-d28c9d3a-09a3-4b1f-9562-7141d850d83e">Trouver en bibliothèque</a></div>
+            </div>
+        </div>
+      </div>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselRM" data-bs-slide="prev">
-      <img src="assets/img/iconbookleft.jpg" class="carousel-control-prev-icon" aria-hidden="true"></img>
-    </button>
+    
     <button class="carousel-control-next" type="button" data-bs-target="#carouselRM" data-bs-slide="next">
       <img src="assets/img/iconbookright.jpg" class="carousel-control-next-icon" aria-hidden="true"></img>
     </button>
@@ -308,51 +526,79 @@
 <div class="col-3 offset-4"><img id="imgDivMEV" src="assets/img/vector3.jpg"></img></div>
 <div>
   <h2>Horreur</h2>
-  <div id="carouselRCH" class="carousel slide" data-bs-ride="carousel">
+  <div id="carouselRCH" class="carousel slide container" data-bs-ride="carousel">
+  <div class="col col-lg-1 col-sm-3">
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselRCH" data-bs-slide="prev">
+        <img src="assets/img/iconbookleft.jpg" class="carousel-control-prev-icon" aria-hidden="true"></img>
+      </button>
+    </div>
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#carouselRCH" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
       <button type="button" data-bs-target="#carouselRCH" data-bs-slide-to="1" aria-label="Slide 2"></button>
       <button type="button" data-bs-target="#carouselRCH" data-bs-slide-to="2" aria-label="Slide 3"></button>
-      <button type="button" data-bs-target="#carouselRCH" data-bs-slide-to="3" aria-label="Slide 4"></button>
-      <button type="button" data-bs-target="#carouselRCH" data-bs-slide-to="4" aria-label="Slide 5"></button>
-      <button type="button" data-bs-target="#carouselRCH" data-bs-slide-to="5" aria-label="Slide 6"></button>
-      <button type="button" data-bs-target="#carouselRCH" data-bs-slide-to="6" aria-label="Slide 7"></button>
-      <button type="button" data-bs-target="#carouselRCH" data-bs-slide-to="7" aria-label="Slide 8"></button>
     </div>
     <div class="container carousel-inner">
       <div class="carousel-item active">
-        <img class="float-start imgRec" src="assets/img/bookRec_CH_SomeoneYouCanBuildANestIn.jpg" 
-        aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
-        <div class="carousel-caption">
-              <h4 class="recomTi">Someone You Can Build A Nest In, <span><img class="imgTag" src="assets/img/tag_CozyHorror.jpg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></img></span></br>by John Wiswell</h4>
-              <a class="btn recomBtn" target="_blank" href="https://www.goodreads.com/book/show/182506390-someone-you-can-build-a-nest-in?from_search=true&from_srp=true&qid=M97MWOjwVS&rank=1">Voir les détails sur Goodreads</a>
-              <a class="btn recomBtn" target="_blank" href="https://cap.banq.qc.ca/permalink/P-8c90fcf5-8245-40e5-8b59-2253e67dfb3e">Trouver en bibliothèque</a>
+        <div class="row"><div class="col col-12"><h4 class="recomTi  text-center">Someone You Can Build A Nest In, </br>by John Wiswell</h4></div></div>
+        <div class="row">
+          <div class="col-lg-3 offset-2 colImgRec  align-self-center">
+            <img class="imgRec img-fluid" src="assets/img/bookRec_CH_SomeoneYouCanBuildANestIn.jpg"
+          aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
+          </div>
+          <div class="col col-lg-4 colImgRec"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+                dolore magna aliqua. Proin tortor purus platea sit eu id nisi litora libero. Neque vulputate consequat ac amet 
+                augue blandit maximus aliquet congue. Pharetra vestibulum posuere ornare faucibus fusce dictumst orci aenean eu 
+                facilisis ut volutpat commodo senectus purus himenaeos fames primis convallis nisi.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="carousel-caption">
+                <div class="center"><a class="btn recomBtn" target="_blank" href="https://www.goodreads.com/book/show/182506390-someone-you-can-build-a-nest-in?from_search=true&from_srp=true&qid=M97MWOjwVS&rank=1">Voir les détails sur Goodreads</a>
+              <a class="btn recomBtn" target="_blank" href="https://cap.banq.qc.ca/permalink/P-8c90fcf5-8245-40e5-8b59-2253e67dfb3e">Trouver en bibliothèque</a></div>
+            </div>
         </div>
       </div>
       <div class="carousel-item">
-        <img class="float-start imgRec" src="assets/img/bookRec_H_BuryOurBones.jpg" 
-        aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
-        <div class="carousel-caption">
-              <h4 class="recomTi">Bury our bones in the midnight soil, </br>by	V. E. Schwab</h4>
-              <a class="btn recomBtn" target="_blank" href="https://www.goodreads.com/book/show/215020997-bury-our-bones-in-the-midnight-soil?from_search=true&from_srp=true&qid=uQzOQ4Am8y&rank=1">Voir les détails sur Goodreads</a>
-              <a class="btn recomBtn" target="_blank" href="https://cap.banq.qc.ca/permalink/P-b9240437-6d43-44d4-9b1c-2e67506eb848">Trouver en bibliothèque</a>
+        <div class="row"><div class="col col-12"><h4 class="recomTi  text-center">Bury our bones in the midnight soil, </br>by	V. E. Schwab</h4></div></div>
+        <div class="row">
+          <div class="col-lg-3 offset-2 colImgRec  align-self-center">
+            <img class="imgRec img-fluid" src="assets/img/bookRec_H_BuryOurBones.jpg"
+          aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
+          </div>
+          <div class="col col-lg-4 colImgRec"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+                dolore magna aliqua. Proin tortor purus platea sit eu id nisi litora libero. Neque vulputate consequat ac amet 
+                augue blandit maximus aliquet congue. Pharetra vestibulum posuere ornare faucibus fusce dictumst orci aenean eu 
+                facilisis ut volutpat commodo senectus purus himenaeos fames primis convallis nisi.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="carousel-caption">
+                <div class="center"><a class="btn recomBtn" target="_blank" href="https://www.goodreads.com/book/show/215020997-bury-our-bones-in-the-midnight-soil?from_search=true&from_srp=true&qid=uQzOQ4Am8y&rank=1">Voir les détails sur Goodreads</a>
+              <a class="btn recomBtn" target="_blank" href="https://cap.banq.qc.ca/permalink/P-b9240437-6d43-44d4-9b1c-2e67506eb848">Trouver en bibliothèque</a></div>
+            </div>
         </div>
       </div>
       <div class="carousel-item">
-        <img class="float-start imgRec" src="assets/img/bookRec_H_FinalGirlSupportGroup.jpg" 
-        aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
-        <div class="carousel-caption">
-              <h4 class="recomTi">The Final Girl Support Group, </br>by Grady Hendrix</h4>
-              <a class="btn recomBtn" target="_blank" href="https://www.goodreads.com/book/show/55829194-the-final-girl-support-group?from_search=true&from_srp=true&qid=uo1f3QEsDF&rank=1">Voir les détails sur Goodreads</a>
-              <a class="btn recomBtn" target="_blank" href="https://cap.banq.qc.ca/notice?id=p%3A%3Ausmarcdef_0006586571&locale=fr">Trouver en bibliothèque</a>
+        <div class="row"><div class="col col-12"><h4 class="recomTi  text-center">The Final Girl Support Group, </br>by Grady Hendrix</h4></div></div>
+        <div class="row">
+          <div class="col-lg-3 offset-2 colImgRec  align-self-center">
+            <img class="imgRec img-fluid" src="assets/img/bookRec_H_FinalGirlSupportGroup.jpg"
+          aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
+          </div>
+          <div class="col col-lg-4 colImgRec"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+                dolore magna aliqua. Proin tortor purus platea sit eu id nisi litora libero. Neque vulputate consequat ac amet 
+                augue blandit maximus aliquet congue. Pharetra vestibulum posuere ornare faucibus fusce dictumst orci aenean eu 
+                facilisis ut volutpat commodo senectus purus himenaeos fames primis convallis nisi.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="carousel-caption">
+                <div class="center"><a class="btn recomBtn" target="_blank" href="https://www.goodreads.com/book/show/55829194-the-final-girl-support-group?from_search=true&from_srp=true&qid=uo1f3QEsDF&rank=1">Voir les détails sur Goodreads</a>
+              <a class="btn recomBtn" target="_blank" href="https://cap.banq.qc.ca/notice?id=p%3A%3Ausmarcdef_0006586571&locale=fr">Trouver en bibliothèque</a></div>
+            </div>
         </div>
       </div>
-    
     </div>
-
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselRCH" data-bs-slide="prev">
-      <img src="assets/img/iconbookleft.jpg" class="carousel-control-prev-icon" aria-hidden="true"></img>
-    </button>
     <button class="carousel-control-next" type="button" data-bs-target="#carouselRCH" data-bs-slide="next">
       <img src="assets/img/iconbookright.jpg" class="carousel-control-next-icon" aria-hidden="true"></img>
     </button>
