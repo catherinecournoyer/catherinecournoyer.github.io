@@ -3,12 +3,122 @@
   font-family: "Viaoda Libre", Cambria, serif
 }
 
-.albumscontainer {
-  padding-bottom: 15px;
-  padding-top: 15px; 
-  padding-left: 30px;
-  padding-right: 30px;
+.viaoda-libre-regular {
+  font-family: "Viaoda Libre", serif;
+  font-weight: 400;
+  font-style: normal;
 }
+
+body {
+  background-color: rgb(253, 218, 180);  
+}
+
+.center {
+  text-align: center;
+}
+
+p {
+  font-size: 16px;
+  color: rgb(37, 150, 190);
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  text-align: left;
+  margin-bottom: 15px;
+  margin-left: 30px;
+}
+
+h3 {
+  text-align: center;
+  background-color:  rgb(253, 218, 180); 
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+
+h4 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/*Header */
+header {
+  background-image: url("/assets/img/mosaique.jpeg"); 
+}
+
+.imagePrinc{
+  margin: 20px;
+}
+
+.imageSec {
+  margin: 20px;
+  width: auto;
+  height: 100px;
+  text-align: right;
+}
+
+#nomPrincipal {
+  text-align: center;
+  font-size: 30px;
+  font-family: "Viaoda Libre", serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-left: 0px;
+}
+
+
+
+.titleband {
+  margin:15px;
+  max-width: 100%;
+}
+
+.navbar-nav {
+  width: 70%;
+}
+
+#navDropItem {
+  border-color: rgb(37, 150, 190);
+  border-width: 7px;
+  background-color: transparent;
+  margin-bottom: 0px;
+  padding: 15px;
+}
+
+#navDropItem:hover {
+  border-color: rgb(37, 150, 190);
+  border-width: 7px;
+  background-color: rgb(37, 150, 190); 
+  margin-bottom: 0px;
+  padding: 15px;
+  color: white;
+}
+
+#navDropMenu {
+  background-color: rgb(253, 218, 180); 
+  border-color: rgb(37, 150, 190);
+  border-width: 7px;
+  padding: 0px;
+}
+
+#navDropMenu:active {
+  background-color: rgb(253, 218, 180); 
+  border-color: rgb(37, 150, 190);
+  border-width: 7px;
+  color: rgb(37, 150, 190);
+}
+
+#recherche {
+  margin-top: 16px;  
+  position: relative;
+}
+
+/*Index page*/
 
 .blog-post-content {
   margin-left: 30px;
@@ -18,9 +128,147 @@
   margin-left: 30px;
 }
 
-body {
-  background-color: rgb(253, 218, 180);  
+/*CV page*/
+
+
+
+/*MEV page*/
+
+.albumscontainer {
+  padding-bottom: 15px;
+  padding-top: 15px; 
+  padding-left: 30px;
+  padding-right: 30px;
 }
+
+#carouselN1 {
+  width: 40%;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.ctnMEV{
+  margin-left: 30px;
+  margin-right: 30px;
+  width: 100%;
+}
+
+#imgDivMEV {
+  margin-top: 30px;
+  text-align: middle;
+  width: 100%;
+  height: auto;
+}
+
+.imgalbum {
+  width: 100%;
+}
+
+.imgMEV {
+  height: 70%;
+  width: auto;
+  margin-top: 30px;
+}
+
+.imgMEVthumbv {
+  height: 140px;
+  width: auto;
+}
+
+.imgMEVbklist{
+  text-align: center;
+  height: auto;
+  width: 450px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.imgMEVindBk{
+  height: auto;
+  width: 200px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  
+}
+
+/*Recs page*/
+
+.imgRec{
+  text-align: center;
+  padding-bottom: 10px;
+  vertical-align: middle;
+}
+
+.recomTi {
+  color: rgb(37, 150, 190);
+  font-size: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: auto;
+}
+
+
+.recomBtn {
+  border-color: rgb(37, 150, 190);
+  border-width: 2px;
+  color: rgb(37, 150, 190);
+  margin: 2px;
+  padding: 2px;
+}
+
+.recomBtn:hover {
+  border-color: rgb(37, 150, 190);
+  border-width: 7px;
+  color: rgb(37, 150, 190);
+  margin: 2px;
+  padding: 2px;
+}
+
+.recomImg {
+  margin-left: 5px;
+  margin-right: 5px;
+  max-width: 25%;
+  height: 25%;
+}
+
+.colImgRec {
+  max-width: 33%;
+  vertical-align: middle;
+}
+
+.colTxtRec {
+  vertical-align: middle;
+}
+
+/*Contact page*/
+
+.contactforminput {
+  width: 30%;
+  margin-bottom: 20px;
+}
+
+.contactformlabel {
+  text-align: center;
+}
+
+.contactformtext {
+  width: 40%;
+  height: 30%;
+  margin-bottom: 20px;
+}
+
+form {
+  text-align: center;
+}
+
+/* footer */
+
+footer {
+  background-color: rgb(253, 218, 180);
+}
+
+/*btn et al */
+
 
 .btn-primary {
   background-color: transparent; 
@@ -113,8 +361,8 @@ body {
   position: relative;
 }
 
-#carouselN1 {
-  width: 40%;
+.carousel-inner {
+  margin: 0px;
 }
 
 .carousel-caption {
@@ -123,6 +371,7 @@ body {
   right: 0%;
   bottom: 0%;
   width: 100%;
+  position: relative;
 }
 
 .carousel-control-prev {
@@ -150,34 +399,16 @@ body {
 }
 
 .carousel-control-next-icon, .carousel-control-prev-icon {
-    width: 3rem;
-    height: 3rem;
+    width: 2rem;
+    height: 2rem;
 }
 
-
-.center {
+.carousel-indicators {
   text-align: center;
-}
-
-.contactforminput {
-  width: 30%;
-  margin-bottom: 20px;
-}
-
-.contactformlabel {
-  text-align: center;
-}
-
-.contactformtext {
-  width: 40%;
-  height: 30%;
-  margin-bottom: 20px;
-}
-
-.ctnMEV{
-  margin-left: 30px;
-  margin-right: 30px;
-  width: 100%;
+  width: 300px;
+  height: auto;
+  margin:auto;
+  max-width: auto;
 }
 
 .divider {
@@ -190,61 +421,6 @@ div.carousel-caption {
 
 .dropdown-divider {
   margin: 0px;
-}
-
-footer {
-  background-color: rgb(253, 218, 180);
-}
-
-form {
-  text-align: center;
-}
-
-h1 {
-  text-align: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-h2 {
-  text-align: left;
-  margin-bottom: 15px;
-  margin-left: 30px;
-}
-
-h3 {
-  text-align: center;
-  background-color:  rgb(253, 218, 180); 
-  margin-top: 30px;
-  margin-bottom: 0px;
-}
-
-h4 {
-  text-align: center;
-  margin-bottom: 10px;
-
-}
-
-header {
-  background-color: rgb(244, 221, 190);  
-}
-
-.carousel-indicators {
-  text-align: center;
-  width: 300px;
-  height: auto;
-  margin:auto;
-  max-width: auto;
-  
-}
-
-.carousel-inner {
-  margin: 0px;
-}
-
-.colImgRec {
-  max-width: 33%;
-  vertical-align: middle;
 }
 
 .imgdivleft3 {
@@ -269,82 +445,173 @@ header {
   padding-bottom: 30px;
 }
 
-#imgDivMEV {
-  margin-top: 30px;
-  text-align: middle;
-  width: 100%;
-  height: auto;
+
+
+/* landscape phones */
+@media (min-width: 576px) {
+  header {
+    #nomPrincipal {
+      font-size: 30px;
+    }
+    .imagePrinc{
+      margin: 20px;
+    }
+    .imageSec {
+      margin: 20px;
+      width: auto;
+      height: 100px;
+      text-align: right;
+    }
+  }
+  body {
+    p {
+      font-size: 16px;
+      color: rgb(37, 150, 190);
+    }
+    h1 {
+      text-align: center;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+    h2 {
+      text-align: left;
+      margin-bottom: 15px;
+      margin-left: 30px;
+    }
+    h3 {
+      text-align: center;
+      background-color:  rgb(253, 218, 180); 
+      margin-top: 30px;
+      margin-bottom: 0px;
+    }
+    h4 {
+      text-align: center;
+      margin-bottom: 10px;
+    } 
+    .recomBtn {
+      font-size: 16px;
+    }
+  }
 }
 
-.imgalbum {
-  width: 100%;
+/* tablets */
+@media (min-width: 768px) {
+  header {
+    #nomPrincipal {
+      font-size: 40px;
+    }
+    .imagePrinc{
+      margin: 20px;
+    }
+    .imageSec {
+      margin: 20px;
+      width: auto;
+      height: 100px;
+      text-align: right;
+    }
+    a {
+      font-size: 20px;
+      color: rgb(37, 150, 190);
+    }
+  }
+  body {
+    p {
+      font-size: 20px;
+      color: rgb(37, 150, 190);
+    }
+    h1 {
+      text-align: center;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+    h2 {
+      text-align: left;
+      margin-bottom: 15px;
+      margin-left: 30px;
+    }
+    h3 {
+      text-align: center;
+      background-color:  rgb(253, 218, 180); 
+      margin-top: 30px;
+      margin-bottom: 0px;
+    }
+    h4 {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+    .recomBtn {
+      font-size: 16px;
+    }
+  }
 }
 
-.imgEmp {
-  width: 80%;
-  height:auto;
-  margin-right: 20px;
+/* desktops 1200 */
+@media (min-width: 1200px) {
+  header {
+    #nomPrincipal {
+      font-size: 50px;
+    }
+    .imagePrinc{
+      margin: 20px;
+    }
+    .imageSec {
+      margin: 20px;
+      width: auto;
+      height: 200px;
+      text-align: right;
+    }
+  }
+  body {
+    p {
+      font-size: 24px;
+      color: rgb(37, 150, 190);
+    }
+    h1 {
+      text-align: center;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+    h2 {
+      text-align: left;
+      margin-bottom: 15px;
+      margin-left: 30px;
+    }
+    h3 {
+      text-align: center;
+      background-color:  rgb(253, 218, 180); 
+      margin-top: 30px;
+      margin-bottom: 0px;
+    }
+    h4 {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+    #carouselN1 {
+      width: 100%;
+      margin-left: 140px;
+      margin-right: 140px;
+    }
+    .recomBtn {
+      font-size: 24px;
+    }
+  }
 }
 
-#SectEmp{
-  padding: 0px;
-}
 
-.imagePrinc{
-  margin: 20px;
+/*
+@media (max-width: 479px) {
+    body {
+        
+    }
 }
+*/
 
-.imageSec {
-  margin: 20px;
-  width: auto;
-  height: 200px;
-  text-align: right;
-}
 
-.imgRec{
-  text-align: center;
-  padding-bottom: 10px;
-  vertical-align: middle;
-}
 
-.carousel-caption {
-  position: relative;
-}
 
-.imgMEV {
-  height: 70%;
-  width: auto;
-  margin-top: 30px;
-}
 
-.imgMEVthumbv {
-  height: 140px;
-  width: auto;
-}
 
-.imgMEVbklist{
-  text-align: center;
-  height: auto;
-  width: 450px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
 
-.imgMEVindBk{
-  height: auto;
-  width: 200px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  
-}
-
-.imgBand {
-}
-
-.imgTag {
-  height: 100;
-  width: auto;
-}
 
 .hidden-element {
   display: none;
@@ -358,94 +625,17 @@ header {
 }
 }
 
-.MEVbklistref:hover{
-  image
+
+/* ??? */
+.imgEmp {
+  width: 80%;
+  height:auto;
+  margin-right: 20px;
 }
 
-.navbar-nav {
-  width: 70%;
-}
-
-#navDropItem {
-  border-color: rgb(37, 150, 190);
-  border-width: 7px;
-  background-color: transparent;
-  margin-bottom: 0px;
-  padding: 15px;
-}
-
-#navDropItem:hover {
-  border-color: rgb(37, 150, 190);
-  border-width: 7px;
-  background-color: rgb(37, 150, 190); 
-  margin-bottom: 0px;
-  padding: 15px;
-  color: white;
-}
-
-#navDropMenu {
-  background-color: rgb(253, 218, 180); 
-  border-color: rgb(37, 150, 190);
-  border-width: 7px;
+#SectEmp{
   padding: 0px;
-}
-
-#navDropMenu:active {
-  background-color: rgb(253, 218, 180); 
-  border-color: rgb(37, 150, 190);
-  border-width: 7px;
-  color: rgb(37, 150, 190);
-}
-
-#nomPrincipal {
   text-align: center;
-  font-size: 50px;
-  font-family: "Viaoda Libre", serif;
-  font-weight: 400;
-  font-style: normal;
-  margin-left: 0px;
-}
-
-p {
-  font-size: 16px;
-  color: rgb(37, 150, 190);
-}
-
-#recherche {
-  margin-top: 16px;  
-  position: relative;
-}
-
-.recomTi {
-  color: rgb(37, 150, 190);
-  font-size: 30px;
-  margin-top: 10px;
-  height: auto;
-}
-
-
-.recomBtn {
-  border-color: rgb(37, 150, 190);
-  border-width: 2px;
-  color: rgb(37, 150, 190);
-  margin: 2px;
-  padding: 2px;
-}
-
-.recomBtn:hover {
-  border-color: rgb(37, 150, 190);
-  border-width: 7px;
-  color: rgb(37, 150, 190);
-  margin: 2px;
-  padding: 2px;
-}
-
-
-.recomImg {
-  margin-left: 5px;
-  margin-right: 5px;
-  max-width: 25%;
-  height: 25%;
 }
 
 .RecTxt {
@@ -456,28 +646,9 @@ p {
     position: absolute;
 }
 
-
-#SectEmp {
-  text-align: center;
-}
-
-
 .table-responsive {
   width: 100%;
 }
-
-.titleband {
-  margin:15px;
-  max-width: 100%;
-}
-
-.viaoda-libre-regular {
-  font-family: "Viaoda Libre", serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-
 
 /*
 .logo {
