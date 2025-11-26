@@ -3,6 +3,8 @@
   font-family: "Viaoda Libre", Cambria, serif
 }
 
+/* rgb(37, 150, 190); */
+
 .viaoda-libre-regular {
   font-family: "Viaoda Libre", serif;
   font-weight: 400;
@@ -19,19 +21,26 @@ body {
 
 p {
   font-size: 16px;
-  color: rgb(37, 150, 190);
+  color: rgb(18,70,89);
+}
+
+a {
+  font-size: 16px;
+  color: rgb(18,70,89);
 }
 
 h1 {
   text-align: center;
   margin-top: 20px;
   margin-bottom: 20px;
+  color: rgb(18,70,89);
 }
 
 h2 {
   text-align: left;
   margin-bottom: 15px;
   margin-left: 30px;
+  color: rgb(18,70,89);
 }
 
 h3 {
@@ -39,16 +48,17 @@ h3 {
   background-color:  rgb(253, 218, 180); 
   margin-top: 30px;
   margin-bottom: 0px;
+  color: rgb(18,70,89);
 }
 
 h4 {
   text-align: center;
   margin-bottom: 10px;
+  color: rgb(18,70,89);
 }
 
 /*Header */
 header {
-  background-image: url("/assets/img/mosaique.jpeg"); 
 }
 
 .imagePrinc{
@@ -71,11 +81,10 @@ header {
   margin-left: 0px;
 }
 
-
-
 .titleband {
   margin:15px;
   max-width: 100%;
+  background-image: url("assets/img/mosaique.png"); 
 }
 
 .navbar-nav {
@@ -83,7 +92,7 @@ header {
 }
 
 #navDropItem {
-  border-color: rgb(37, 150, 190);
+  border-color: rgb(18,70,89);
   border-width: 7px;
   background-color: transparent;
   margin-bottom: 0px;
@@ -91,9 +100,9 @@ header {
 }
 
 #navDropItem:hover {
-  border-color: rgb(37, 150, 190);
+  border-color: rgb(18,70,89);
   border-width: 7px;
-  background-color: rgb(37, 150, 190); 
+  color: rgb(18,70,89);
   margin-bottom: 0px;
   padding: 15px;
   color: white;
@@ -101,16 +110,15 @@ header {
 
 #navDropMenu {
   background-color: rgb(253, 218, 180); 
-  border-color: rgb(37, 150, 190);
+  color: rgb(18,70,89);
   border-width: 7px;
   padding: 0px;
 }
 
 #navDropMenu:active {
   background-color: rgb(253, 218, 180); 
-  border-color: rgb(37, 150, 190);
+  color: rgb(18,70,89);
   border-width: 7px;
-  color: rgb(37, 150, 190);
 }
 
 #recherche {
@@ -126,6 +134,17 @@ header {
 
 .blog-post-meta {
   margin-left: 30px;
+}
+
+.imgEmp {
+  width: 80%;
+  height:auto;
+  margin-right: 20px;
+}
+
+#SectEmp{
+  padding: 0px;
+  text-align: center;
 }
 
 /*CV page*/
@@ -164,31 +183,48 @@ header {
   width: 100%;
 }
 
-.imgMEV {
-  height: 70%;
-  width: auto;
-  margin-top: 30px;
-}
-
+/* the thumbnail image for categories of MEV lists */
 .imgMEVthumbv {
-  height: 140px;
+  height: 50px;
   width: auto;
 }
 
+/* the image for MEV in the MEV page carousels */
+.imgMEV {
+  height: "30%";
+  width: auto;
+  margin-top: 10px;
+}
+
+/* the thumbnail image for MEV lists */
 .imgMEVbklist{
   text-align: center;
   height: auto;
-  width: 450px;
+  width: 100%;
+}
+
+/* in MEV lists, individual book images */
+.imgMEVindBk{
+  height: 100px;
+  width: auto;
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
-.imgMEVindBk{
-  height: auto;
-  width: 200px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  
+.dotF {
+  height: 15px;
+  width: 15px;
+  background-color: #3700ff;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dotE {
+  height: 15px;
+  width: 15px;
+  background-color: #ff0000;
+  border-radius: 50%;
+  display: inline-block;
 }
 
 /*Recs page*/
@@ -201,7 +237,7 @@ header {
 
 .recomTi {
   color: rgb(37, 150, 190);
-  font-size: 30px;
+  font-size: 20px;
   margin-top: 10px;
   margin-bottom: 10px;
   height: auto;
@@ -209,17 +245,17 @@ header {
 
 
 .recomBtn {
-  border-color: rgb(37, 150, 190);
+  border-color: rgb(18,70,89);
   border-width: 2px;
-  color: rgb(37, 150, 190);
+  color: rgb(18,70,89);
   margin: 2px;
   padding: 2px;
 }
 
 .recomBtn:hover {
-  border-color: rgb(37, 150, 190);
+  border-color: rgb(18,70,89);
   border-width: 7px;
-  color: rgb(37, 150, 190);
+  color: rgb(18,70,89);
   margin: 2px;
   padding: 2px;
 }
@@ -232,11 +268,17 @@ header {
 }
 
 .colImgRec {
-  max-width: 33%;
+  max-height: 33%;
   vertical-align: middle;
+  text-align: center;
+}
+
+.img-fluid {
+  
 }
 
 .colTxtRec {
+  max-width: 33%;
   vertical-align: middle;
 }
 
@@ -249,6 +291,8 @@ header {
 
 .contactformlabel {
   text-align: center;
+  font-size: 16px;
+  color: rgb(18,70,89);
 }
 
 .contactformtext {
@@ -272,18 +316,18 @@ footer {
 
 .btn-primary {
   background-color: transparent; 
-  border-color: rgb(37, 150, 190);
+  border-color: rgb(18,70,89);
   border-width: 2px;
   padding: 10px 20px 10px 20px;
-  color: black;
+  color: rgb(18,70,89);
   margin-bottom: 10px;
   font-size: 20px;
   position: relative;
 }
 
 .btn-primary:hover {
-  background-color: rgb(37, 150, 190);
-  border-color: rgb(37, 150, 190);
+  background-color:  rgb(18,70,89);
+  border-color:  rgb(18,70,89);
   border-width: 7px;
   padding: 10px 20px 10px 20px;
     color: white;
@@ -292,8 +336,8 @@ footer {
 }
 
 .btn-primary:active {
-  background-color: rgb(37, 150, 190); 
-  border-color: rgb(37, 150, 190);
+  background-color:  rgb(18,70,89); 
+  border-color:  rgb(18,70,89);
   border-width: 7px;
   padding: 10px 20px 10px 20px;
     color: white;
@@ -303,9 +347,9 @@ footer {
 
 .btn-secondary {
   background-color: transparent; 
-  border-color: rgb(37, 150, 190);
+  border-color: rgb(18,70,89);
   border-width: 2px;
-  color: rgb(37, 150, 190);
+  color: rgb(18,70,89);;
   padding: 10px 20px 10px 20px;
   font-size: 20px;
   margin-right:15px;
@@ -314,25 +358,25 @@ footer {
 
 .btn-secondary:hover {
   background-color: transparent; 
-  border-color: rgb(37, 150, 190);
+  border-color: rgb(18,70,89);
   border-width: 7px;
-  color: rgb(37, 150, 190);
+  color: rgb(18,70,89);
   padding: 10px 20px 10px 20px;
   position: relative;
 }
 
 .btn-secondary:active {
   background-color: transparent; 
-  border-color: rgb(37, 150, 190);
+  border-color: rgb(18,70,89);
   border-width: 7px;
-  color: rgb(37, 150, 190);
+  color: rgb(18,70,89);
   padding: 10px 20px 10px 20px;
   position: relative;
 }
 
 .btn-tertiary {
   background-color: transparent; 
-  border-color: rgb(37, 150, 190);
+  border-color: rgb(18,70,89)
   border-width: 2px;
   padding: 10px 20px 10px 20px;
   color: black;
@@ -342,8 +386,8 @@ footer {
 }
 
 .btn-tertiary:hover {
-  background-color: rgb(37, 150, 190);
-  border-color: rgb(37, 150, 190);
+  background-color: rgb(18,70,89);
+  border-color: rgb(18,70,89);
   border-width: 7px;
   padding: 10px 20px 10px 20px;
     color: white;
@@ -352,13 +396,18 @@ footer {
 }
 
 .btn-tertiary:active {
-  background-color: rgb(37, 150, 190); 
-  border-color: rgb(37, 150, 190);
+  background-color: rgb(18,70,89);
+  border-color: rgb(18,70,89);
   border-width: 7px;
   padding: 10px 20px 10px 20px;
     color: white;
   margin-bottom: 10px;
   position: relative;
+}
+
+.btnRetour {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .carousel-inner {
@@ -375,16 +424,16 @@ footer {
 }
 
 .carousel-control-prev {
-  color: rgb(37, 150, 190);
-  background-color: rgb(37, 150, 190);
+  color: rgb(18,70,89);
+  background-color: rgb(18,70,89);
   width: fit-content;
   margin-left: 20px;
   margin-right: 20px;
 }
 
 .carousel-control-next {
-  color: rgb(37, 150, 190);
-  background-color: rgb(37, 150, 190);
+  color:rgb(18,70,89);
+  background-color: rgb(18,70,89);
   width: fit-content;
   margin-left: 20px;
   margin-right: 20px;
@@ -405,10 +454,12 @@ footer {
 
 .carousel-indicators {
   text-align: center;
-  width: 300px;
+  width: 100%;
   height: auto;
-  margin:auto;
-  max-width: auto;
+  position: absolute;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
 }
 
 .divider {
@@ -466,7 +517,6 @@ div.carousel-caption {
   body {
     p {
       font-size: 16px;
-      color: rgb(37, 150, 190);
     }
     h1 {
       text-align: center;
@@ -479,15 +529,19 @@ div.carousel-caption {
       margin-left: 30px;
     }
     h3 {
-      text-align: center;
-      background-color:  rgb(253, 218, 180); 
       margin-top: 30px;
       margin-bottom: 0px;
     }
     h4 {
       text-align: center;
-      margin-bottom: 10px;
     } 
+    .recomTi {
+      color: rgb(18,70,89);;
+      font-size: 20px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      height: auto;
+    }
     .recomBtn {
       font-size: 16px;
     }
@@ -511,13 +565,17 @@ div.carousel-caption {
     }
     a {
       font-size: 20px;
-      color: rgb(37, 150, 190);
+      color: rgb(18,70,89);;
     }
   }
   body {
     p {
       font-size: 20px;
-      color: rgb(37, 150, 190);
+      color: rgb(18,70,89);
+    }
+    a {
+      font-size: 20px;
+      color: rgb(18,70,89);
     }
     h1 {
       text-align: center;
@@ -538,6 +596,16 @@ div.carousel-caption {
     h4 {
       text-align: center;
       margin-bottom: 10px;
+    }
+    .recomTi {
+      color: rgb(37, 150, 190);
+      font-size: 25px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      height: auto;
+    }
+    .contactformlabel {
+      font-size: 20px;
     }
     .recomBtn {
       font-size: 16px;
@@ -560,11 +628,19 @@ div.carousel-caption {
       height: 200px;
       text-align: right;
     }
+    a {
+      font-size: 24px;
+      color: rgb(18,70,89);;
+    }
   }
   body {
     p {
       font-size: 24px;
-      color: rgb(37, 150, 190);
+      color: rgb(18,70,89);;
+    }
+    a {
+      font-size: 24px;
+      color: rgb(18,70,89);
     }
     h1 {
       text-align: center;
@@ -585,6 +661,43 @@ div.carousel-caption {
     h4 {
       text-align: center;
       margin-bottom: 10px;
+    }
+    /* the image for MEV in the MEV page carousels */
+    .imgMEV {
+      height: 70%;
+      width: auto;
+      margin-top: 30px;
+    }
+
+    /* the thumbnail image for categories of MEV lists */
+    .imgMEVthumbv {
+      height: 140px;
+      width: auto;
+    }
+
+    /* the thumbnail image for MEV lists */
+    .imgMEVbklist{
+      text-align: center;
+      height: auto;
+      width: 100%;
+    }
+
+    /* in MEV lists, individual book images */
+    .imgMEVindBk{
+      height: 100px;
+      width: auto;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+    .recomTi {
+      color: rgb(18,70,89);
+      font-size: 30px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      height: auto;
+    }
+    .contactformlabel {
+      font-size: 24px;
     }
     #carouselN1 {
       width: 100%;
@@ -627,16 +740,7 @@ div.carousel-caption {
 
 
 /* ??? */
-.imgEmp {
-  width: 80%;
-  height:auto;
-  margin-right: 20px;
-}
 
-#SectEmp{
-  padding: 0px;
-  text-align: center;
-}
 
 .RecTxt {
   position: relative;

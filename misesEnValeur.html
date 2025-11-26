@@ -5,7 +5,7 @@
     <meta name="keywords" content="Catherine Cournoyer"/>
     <meta name="author" content="Catherine Cournoyer"/>
     <meta name="viewport" content="width=devoce-width, initial-scale=1.0"/>
-    <link rel="icon" type="image/x-icon" href="assets/img/icon.png" />
+    <link rel="icon" type="image/png" href="favicon.ico">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
       <link href="css/style.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,6 +15,8 @@
     <style></style> 
     <script></script>
 </head>
+
+<body>
 <header>
 <div class="container titleband">
     <div class="row align-items-center">
@@ -64,10 +66,9 @@
     </div>
 </div>
 </header>
-<body>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-  <h1 class="text-center ctnMEV">Mes mises en valeur</h1>
-<h2 id="MEVn1" class="h2">BAnQ, étage N-1: Arts et littérature</h2>
+<main>
+<h1 class="text-center ctnMEV">Mes mises en valeur</h1>
+<h2 id="MEVn1">BAnQ, étage N-1: Arts et littérature</h2>
   <div class="container text-center"><div class="row align-items-center">
     <div class="col-lg-3 col-md-5 col-sm-6">
       <img src="assets/img/MEV_N1_thumb_LuckyDay.jpg" class="imgMEVthumb rounded-circle" height="140" width="auto" role="img" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
@@ -88,11 +89,18 @@
     </div>
   </div></div>
   <div id="carouselN1" class="carousel slide container" data-bs-ride="carousel">
+
     <div class="col col-lg-1 col-sm-3">
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselN1" data-bs-slide="prev">
         <img src="assets/img/iconbookleft.jpg" class="carousel-control-prev-icon" aria-hidden="true"></img>
       </button>
     </div>
+    <div class="col col-lg-1 col-sm-3">
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselN1" data-bs-slide="next">
+      <img src="assets/img/iconbookright.jpg" class="carousel-control-next-icon" aria-hidden="true"></img>
+      </button>
+    </div>
+
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#carouselN1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
       <button type="button" data-bs-target="#carouselN1" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -100,51 +108,69 @@
       <button type="button" data-bs-target="#carouselN1" data-bs-slide-to="3" aria-label="Slide 4"></button>
     </div>
     <div class="container carousel-inner col-lg-3 col-md-3 col-sm-6 text-center">
-      <div class="carousel-item g-col-5 active">
-        <div class="row"><div class=""><h4 class="recomTi  text-center">Steampunk/Cyberpunk</h4></div></div>
+
+    <div class="carousel-item active">
+        <div class="row"><div class="col col-12"><h4 class="recomTi  text-center">Steampunk/Cyberpunk</h4></div></div>
         <div class="row">
-          <div class="g-col-5">
-            <img class="imgMEV img-fluid" src="assets/img/MEV_N1_SteampunkCyberpunk.jpg"
+          <div class="col-lg-4 offset-4 colImgRec  align-self-center">
+            <img class="imgRec img-fluid" src="assets/img/MEV_N1_SteampunkCyberpunk.jpg"
           aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
           </div>
+        </div>
+        <div class="row">
+          <div class="carousel-caption">
+                <div class="center"><a class="btn recomBtn" target="_blank" href="">Voir les détails.</a></div>
+            </div>
         </div>
       </div>
 
-      <div class="carousel-item g-col-5 active">
-        <div class="row"><div class=""><h4 class="recomTi  text-center">Romans d'auteurs et autrices autochtones</h4></div></div>
+      <div class="carousel-item">
+        <div class="row"><div class="col col-12"><h4 class="recomTi  text-center">Romans d'auteurs et autrices autochtones</h4></div></div>
         <div class="row">
-          <div class="g-col-5">
-            <img class="imgMEV img-fluid" src="assets/img/MEV_N1_RomansDAuteursEtAutricesAutochtones1.jpg"
+          <div class="col-lg-4 offset-4 colImgRec  align-self-center">
+            <img class="imgRec img-fluid" src="assets/img/MEV_N1_RomansDAuteursEtAutricesAutochtones1.jpg"
           aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
           </div>
+        </div>
+        <div class="row">
+          <div class="carousel-caption">
+                <div class="center"><a class="btn recomBtn" target="_blank" href="">Voir les détails.</a></div>
+            </div>
         </div>
       </div>
 
-      <div class="carousel-item g-col-5 active">
-        <div class="row"><div class=""><h4 class="recomTi  text-center">Bandes dessinées : </br> Quand on est à Rome (en 50 av. J.-C.)</h4></div></div>
+      <div class="carousel-item">
+        <div class="row"><div class="col col-12"><h4 class="recomTi  text-center">Bandes dessinées : </br> Quand on est à Rome (en 50 av. J.-C.)</h4></div></div>
         <div class="row">
-          <div class="g-col-5">
-            <img class="imgMEV img-fluid" src="assets/img/MEV_N1_BD_QuandOnEstARome.jpg"
+          <div class="col-lg-4 offset-4 colImgRec  align-self-center">
+            <img class="imgRec img-fluid" src="assets/img/MEV_N1_BD_QuandOnEstARome.jpg"
           aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
           </div>
+        </div>
+        <div class="row">
+          <div class="carousel-caption">
+                <div class="center"><a class="btn recomBtn" target="_blank" href="">Voir les détails.</a></div>
+            </div>
         </div>
       </div>
 
-      <div class="carousel-item g-col-5 active">
-        <div class="row"><div class=""><h4 class="recomTi  text-center">Pirates à bâbord!</h4></div></div>
+      <div class="carousel-item">
+        <div class="row"><div class="col col-12"><h4 class="recomTi  text-center">Pirates à bâbord!</h4></div></div>
         <div class="row">
-          <div class="g-col-5">
-            <img class="imgMEV img-fluid" src="assets/img/MEV_N1_PiratesABabord1.jpg"
+          <div class="col-lg-4 offset-4 colImgRec  align-self-center">
+            <img class="imgRec img-fluid" src="assets/img/MEV_N1_PiratesABabord1.jpg"
           aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
           </div>
         </div>
+        <div class="row">
+          <div class="carousel-caption">
+                <div class="center"><a class="btn recomBtn" target="_blank" href="">Voir les détails.</a></div>
+            </div>
+        </div>
       </div>
+
     </div>
-    <div class="col col-lg-1">
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselN1" data-bs-slide="next">
-      <img src="assets/img/iconbookright.jpg" class="carousel-control-next-icon" aria-hidden="false"></img>
-      </button>
-    </div>
+
 </div>
 
 <div id="MEVn2" class="col-2 offset-5"><img id="imgDivMEV" src="assets/img/vector3.jpg"></img></div>
@@ -152,19 +178,19 @@
 <h2>BAnQ, étage N-2: Sciences</h2>
 <div class="row text-center">
   <div class="container text-center"><div class="row align-items-center">
-    <div class="col-lg-3 col-md-4 col-sm-4">
+    <div class="col-lg-4 col-md-5 col-sm-6">
       <img src="assets/img/MEV_N2_thumb_cuisine.jpg" class="imgMEVthumb rounded-circle" height="140" width="auto" role="img" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
       <h3>Cuisine</h3>
       <p><a class="btn btn-secondary" href="MEV_N2_Cuisine.html">Voir les détails.</a></p>
     </div>
-    <div class="col-lg-1 col-md-3 col-sm-4"><img class="imgdivleft3" src="assets/img/vector_left.jpg" role="img"></img></div>
-    <div class="col-lg-3 col-md-4 col-sm-4">
+    <div class="col-lg-1 col-md-2 col-sm-2"><img class="imgdivleft3" src="assets/img/vector_left.jpg" role="img"></img></div>
+    <div class="col-lg-3 col-md-5 col-sm-6">
       <img src="assets/img/MEV_N2_thumb_artisanat.jpg" class="rounded-circle" width="auto" height="140" role="img" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
       <h3>Artisanat</h3>
       <p><a class="btn btn-secondary" href="#">Voir les détails.</a></p>
     </div>
-    <div class="col-lg-1 col-md-3 col-sm-4"><img class="imgdivright3" src="assets/img/vector_right.jpg" role="img"></img></div>
-    <div class="col-lg-3 col-md-4 col-sm-4">
+    <div class="col-lg-1 col-md-2 col-sm-2"><img class="imgdivright3" src="assets/img/vector_right.jpg" role="img"></img></div>
+    <div class="col-lg-4 col-md-5 col-sm-6">
       <img src="assets/img/MEV_N2_thumb_chats.jpg" class=" rounded-circle" width="auto" height="140" role="img" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
       <h3>Nature et technologies</h3>
       <p><a class="btn btn-secondary" href="#">Voir les détails.</a></p>
@@ -177,244 +203,337 @@
         <img src="assets/img/iconbookleft.jpg" class="carousel-control-prev-icon" aria-hidden="true"></img>
       </button>
     </div>
+    <div class="col col-lg-1 col-sm-3">
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselN2" data-bs-slide="next">
+        <img src="assets/img/iconbookleft.jpg" class="carousel-control-next-icon" aria-hidden="true"></img>
+      </button>
+    </div>
+
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#carouselN2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
       <button type="button" data-bs-target="#carouselN2" data-bs-slide-to="1" aria-label="Slide 2"></button>
       <button type="button" data-bs-target="#carouselN2" data-bs-slide-to="2" aria-label="Slide 3"></button>
     </div>
     <div class="container carousel-inner col-lg-3 col-md-3 col-sm-6 text-center">
-      <div class="carousel-item g-col-5 active">
-        <div class="row"><div class=""><h4 class="recomTi  text-center">Café et chocolat, sublimes délices</h4></div></div>
+
+    <div class="carousel-item active">
+        <div class="row"><div class="col col-12"><h4 class="recomTi  text-center">Café et chocolat, sublimes délices</h4></div></div>
         <div class="row">
-          <div class="g-col-5">
-            <img class="imgMEV img-fluid" src="assets/img/MEV_N2_CafeEtChocolat.jpg"
+          <div class="col-lg-4 offset-4 colImgRec  align-self-center">
+            <img class="imgRec img-fluid" src="assets/img/MEV_N2_CafeEtChocolat.jpg"
           aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
           </div>
         </div>
-      </div>
-      
-      <div class="carousel-item g-col-5 active">
-        <div class="row"><div class=""><h4 class="recomTi  text-center">Équinoxe d'automne : </br>le temps qui passe</h4></div></div>
         <div class="row">
-          <div class="g-col-5">
-            <img class="imgMEV img-fluid" src="assets/img/MEV_N2_EquinoxeDAutomne.jpg"
+          <div class="carousel-caption">
+                <div class="center"><a class="btn recomBtn" target="_blank" href="">Voir les détails.</a></div>
+            </div>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <div class="row"><div class="col col-12"><h4 class="recomTi  text-center">Équinoxe d'automne : </br>le temps qui passe</h4></div></div>
+        <div class="row">
+          <div class="col-lg-4 offset-4 colImgRec  align-self-center">
+            <img class="imgRec img-fluid" src="assets/img/MEV_N2_EquinoxeDAutomne.jpg"
           aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
           </div>
         </div>
-      </div>
-      
-      <div class="carousel-item g-col-5 active">
-        <div class="row"><div class=""><h4 class="recomTi  text-center">Tout beau tout chat</h4></div></div>
         <div class="row">
-          <div class="g-col-5">
-            <img class="imgMEV img-fluid" src="assets/img/MEV_N2_ToutBeauToutChat.jpg"
+          <div class="carousel-caption">
+                <div class="center"><a class="btn recomBtn" target="_blank" href="">Voir les détails.</a></div>
+            </div>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <div class="row"><div class="col col-12"><h4 class="recomTi  text-center">Tout beau tout chat</h4></div></div>
+        <div class="row">
+          <div class="col-lg-4 offset-4 colImgRec  align-self-center">
+            <img class="imgRec img-fluid" src="assets/img/MEV_N2_ToutBeauToutChat.jpg"
           aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
           </div>
+        </div>
+        <div class="row">
+          <div class="carousel-caption">
+                <div class="center"><a class="btn recomBtn" target="_blank" href="">Voir les détails.</a></div>
+            </div>
         </div>
       </div>
     </div>
-    <div class="col col-lg-1">
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselN2" data-bs-slide="next">
-      <img src="assets/img/iconbookright.jpg" class="carousel-control-next-icon" aria-hidden="false"></img>
-      </button>
-    </div>  
 </div>
 </div>
 
 <div id="MEVn3" class="col-2 offset-5"><img id="imgDivMEV" src="assets/img/vector3.jpg"></img></div>
 
-  <h2>BAnQ, étage N-3: Histoire et géographie</h2>
-<div class="row text-center">
+<h2 id="MEVn1">BAnQ, étage N-3: Histoire et géographie</h2>
   <div class="container text-center"><div class="row align-items-center">
-    <div class="col-lg-3 col-md-4 col-sm-4">
+    <div class="col-lg-3 col-md-5 col-sm-6">
       <img src="assets/img/MEV_N3_thumb_pays.jpg" class="imgMEVthumb rounded-circle" height="140" width="auto" role="img" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
       <h3>Histoire et culture</h3>
       <p><a class="btn btn-secondary" href="MEV_N3_HistoireEtCulture.html">Voir les détails.</a></p>
     </div>
-    <div class="col-lg-1 col-md-3 col-sm-4"><img class="imgdivleft3" src="assets/img/vector_left.jpg" role="img"></img></div>
-    <div class="col-lg-3 col-md-4 col-sm-4">
+    <div class="col-lg-1 col-md-2 col-sm-2"><img class="imgdivleft3" src="assets/img/vector_left.jpg" role="img"></img></div>
+    <div class="col-lg-4 col-md-5 col-sm-6">
       <img src="assets/img/MEV_N3_thumb_poli.jpg" class="rounded-circle" width="auto" height="140" role="img" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
       <h3>Sciences politiques</h3>
       <p><a class="btn btn-secondary" href="#">Voir les détails.</a></p>
     </div>
-    <div class="col-lg-1 col-md-3 col-sm-4"><img class="imgdivright3" src="assets/img/vector_right.jpg" role="img"></img></div>
-    <div class="col-lg-3 col-md-4 col-sm-4">
+    <div class="col-lg-1 col-md-2 col-sm-2"><img class="imgdivright3" src="assets/img/vector_right.jpg" role="img"></img></div>
+    <div class="col-lg-3 col-md-5 col-sm-6">
       <img src="assets/img/MEV_N3_thumb_RoomOfOne.jpg" class=" rounded-circle" width="auto" height="140" role="img" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
       <h3>Biographies</h3>
       <p><a class="btn btn-secondary" href="#">Voir les détails.</a></p>
     </div>
   </div></div>
-  <div id="carouselN3" class="carousel slide" data-bs-ride="carousel">
+  <div id="carouselN3" class="carousel slide container" data-bs-ride="carousel">
+
     <div class="col col-lg-1 col-sm-3">
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselN3" data-bs-slide="prev">
         <img src="assets/img/iconbookleft.jpg" class="carousel-control-prev-icon" aria-hidden="true"></img>
       </button>
     </div>
+    <div class="col col-lg-1 col-sm-3">
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselN3" data-bs-slide="next">
+      <img src="assets/img/iconbookright.jpg" class="carousel-control-next-icon" aria-hidden="true"></img>
+      </button>
+    </div>
+
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#carouselN3" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
       <button type="button" data-bs-target="#carouselN3" data-bs-slide-to="1" aria-label="Slide 2"></button>
       <button type="button" data-bs-target="#carouselN3" data-bs-slide-to="2" aria-label="Slide 3"></button>
       <button type="button" data-bs-target="#carouselN3" data-bs-slide-to="3" aria-label="Slide 4"></button>
     </div>
+    <div class="container carousel-inner col-lg-3 col-md-3 col-sm-6 text-center">
 
-    <div class="container carousel-inner">
-      <div class="carousel-item active g-col-5">
-        <img class="float-start imgMEV" src="assets/img/MEV_N3_PiratesIII.jpg" width="30%"
-        aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
-        <div class="carousel-caption">
-              <h4 class="recomTi">Pirates III : </br>Tous à bord!</h4>
-              <a class="btn btn-md btn-primary" href="#">Voir les détails.</a>
+    <div class="carousel-item active">
+        <div class="row"><div class="col col-12"><h4 class="recomTi  text-center">Pirates III : </br>Tous à bord!</h4></div></div>
+        <div class="row">
+          <div class="col-lg-4 offset-4 colImgRec  align-self-center">
+            <img class="imgRec img-fluid" src="assets/img/MEV_N3_PiratesIII.jpg"
+          aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
+          </div>
         </div>
-      </div>
-      <div class="carousel-item g-col-5">
-        <img class="float-start imgMEV" src="assets/img/MEV_N3_QuandOnEstARome.jpg" width="30%"
-        aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
-        <div class="carousel-caption">
-              <h4 class="recomTi">Quand on est à Rome </br>(en 50 av. J.-C.)</h4>
-              <a class="btn btn-md btn-primary" href="#">Voir les détails.</a>
-        </div>
-      </div>
-      <div class="carousel-item active g-col-5">
-        <img class="float-start imgMEV" src="assets/img/MEV_N3_LaCensure.jpg" width="30%"
-        aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
-        <div class="carousel-caption">
-              <h4 class="recomTi">La censure, de l'État à l'édition</h4>
-              <a class="btn btn-md btn-primary" href="#">Voir les détails.</a>
-        </div>
-      </div>
-      <div class="carousel-item g-col-5">
-        <img class="float-start imgMEV" src="assets/img/MEV_N3_AntiracismeEtAnticolonialisme2.jpg" width="30%"
-        aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
-        <div class="carousel-caption">
-              <h4 class="recomTi">Antiracisme et anticolonialisme</h4>
-              <a class="btn btn-md btn-primary" href="#">Voir les détails.</a>
+        <div class="row">
+          <div class="carousel-caption">
+                <div class="center"><a class="btn recomBtn" target="_blank" href="">Voir les détails.</a></div>
+            </div>
         </div>
       </div>
 
-    </div> <!--end carousel-inner-->
+      <div class="carousel-item">
+        <div class="row"><div class="col col-12"><h4 class="recomTi  text-center">Quand on est à Rome </br>(en 50 av. J.-C.)</h4></div></div>
+        <div class="row">
+          <div class="col-lg-4 offset-4 colImgRec  align-self-center">
+            <img class="imgRec img-fluid" src="assets/img/MEV_N3_QuandOnEstARome.jpg"
+          aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
+          </div>
+        </div>
+        <div class="row">
+          <div class="carousel-caption">
+                <div class="center"><a class="btn recomBtn" target="_blank" href="">Voir les détails.</a></div>
+            </div>
+        </div>
+      </div>
 
-    <div class="col col-lg-1">
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselN3" data-bs-slide="next">
-      <img src="assets/img/iconbookright.jpg" class="carousel-control-next-icon" aria-hidden="false"></img>
-      </button>
+      <div class="carousel-item">
+        <div class="row"><div class="col col-12"><h4 class="recomTi  text-center">La censure, de l'État à l'édition</h4></div></div>
+        <div class="row">
+          <div class="col-lg-4 offset-4 colImgRec  align-self-center">
+            <img class="imgRec img-fluid" src="assets/img/MEV_N3_LaCensure.jpg"
+          aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
+          </div>
+        </div>
+        <div class="row">
+          <div class="carousel-caption">
+                <div class="center"><a class="btn recomBtn" target="_blank" href="">Voir les détails.</a></div>
+            </div>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <div class="row"><div class="col col-12"><h4 class="recomTi  text-center">Antiracisme et anticolonialisme</h4></div></div>
+        <div class="row">
+          <div class="col-lg-4 offset-4 colImgRec  align-self-center">
+            <img class="imgRec img-fluid" src="assets/img/MEV_N3_AntiracismeEtAnticolonialisme2.jpg"
+          aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
+          </div>
+        </div>
+        <div class="row">
+          <div class="carousel-caption">
+                <div class="center"><a class="btn recomBtn" target="_blank" href="">Voir les détails.</a></div>
+            </div>
+        </div>
+      </div>
+
     </div>
 
-  </div> <!--end carousel-->
-</div> <!--end row-->
+</div>
 
 <div id="MEVn4" class="col-2 offset-5"><img id="imgDivMEV" src="assets/img/vector3.jpg"></img></div>
 
   <h2>BAnQ, étage N-4: Films et musique</h2>
-  <div class="container text-center"><div class="row align-items-center">
-    <div class="col-lg-1 offset-1 col-md-3 col-sm-4"><img class="imgdivleft3" src="assets/img/vector_left.jpg" role="img"></img></div>
-    <div class="col-lg-3 col-md-4 col-sm-4">
-      <img src="assets/img/MEV_N4_thumb_film_casablanca.jpg" class="imgMEVthumb rounded-circle" height="140" width="auto" role="img" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
+
+<div class="container text-center"><div class="row align-items-center">
+  <div class="col-lg-1 col-md-2 col-sm-2"><img class="imgdivright3" src="assets/img/vector_right.jpg" role="img"></img></div>
+  <div class="col-lg-4 col-md-5 col-sm-6">
+      <img src="assets/img/MEV_N3_thumb_pays.jpg" class="imgMEVthumb rounded-circle" height="140" width="auto" role="img" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
       <h3>Films</h3>
       <p><a class="btn btn-secondary" href="MEV_N4_Films.html">Voir les détails.</a></p>
     </div>
-    <div class="col-lg-2 col-md-3 col-sm-4"><img class="imgdivleft3" src="assets/img/vector_left.jpg" role="img"></img></div>
-    <div class="col-lg-3 col-md-4 col-sm-4">
-      <img src="assets/img/MEV_N4_thumb_mus_.jpg" class=" rounded-circle" width="auto" height="140" role="img" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
+    <div class="col-lg-2 col-md-2 col-sm-2"><img class="imgdivleft3" src="assets/img/vector_left.jpg" role="img"></img></div>
+    <div class="col-lg-4 col-md-5 col-sm-6">
+      <img src="assets/img/MEV_N3_thumb_poli.jpg" class="rounded-circle" width="auto" height="140" role="img" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
       <h3>Musique</h3>
       <p><a class="btn btn-secondary" href="#">Voir les détails.</a></p>
     </div>
-    <div class="col-lg-1 col-md-3 col-sm-4"><img class="imgdivright3" src="assets/img/vector_left.jpg" role="img"></img></div>
-  </div></div>
-  <div id="carouselN4" class="carousel slide" data-bs-ride="carousel">
+    <div class="col-lg-1 col-md-2 col-sm-2"><img class="imgdivright3" src="assets/img/vector_right.jpg" role="img"></img></div>
+
+</div></div>
+<div id="carouselN4" class="carousel slide container" data-bs-ride="carousel">
+
     <div class="col col-lg-1 col-sm-3">
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselN4" data-bs-slide="prev">
         <img src="assets/img/iconbookleft.jpg" class="carousel-control-prev-icon" aria-hidden="true"></img>
       </button>
     </div>
+    <div class="col col-lg-1 col-sm-3">
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselN4" data-bs-slide="next">
+      <img src="assets/img/iconbookright.jpg" class="carousel-control-next-icon" aria-hidden="true"></img>
+      </button>
+    </div>
+
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#carouselN4" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
       <button type="button" data-bs-target="#carouselN4" data-bs-slide-to="1" aria-label="Slide 2"></button>
     </div>
-    <div class="container carousel-inner">
-      <div class="carousel-item active g-col-5">
-        <img class="float-start imgMEV" src="assets/img/MEV_N4_BanqEstFiere.jpg" width="30%"
-        aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
-        <div class="carousel-caption">
-              <h4 class="recomTi">BAnQ est fière</h4>
-              <a class="btn btn-md btn-primary" href="#">Voir les détails.</a>
+    <div class="container carousel-inner col-lg-3 col-md-3 col-sm-6 text-center">
+
+    <div class="carousel-item active">
+        <div class="row"><div class="col col-12"><h4 class="recomTi  text-center">BAnQ est fière</h4></div></div>
+        <div class="row">
+          <div class="col-lg-4 offset-4 colImgRec  align-self-center">
+            <img class="imgRec img-fluid" src="assets/img/MEV_N4_BanqEstFiere.jpg"
+          aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
+          </div>
+        </div>
+        <div class="row">
+          <div class="carousel-caption">
+                <div class="center"><a class="btn recomBtn" target="_blank" href="">Voir les détails.</a></div>
+            </div>
         </div>
       </div>
-      <div class="carousel-item g-col-5">
-        <img class="float-start imgMEV" src="assets/img/MEV_N4_QuandOnEstARome.jpg" width="30%"
-        aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
-        <div class="carousel-caption">
-              <h4 class="recomTi">Quand on est à Rome </br>(en 50 av. J.-C.)</h4>
-              <a class="btn btn-md btn-primary" href="#">Voir les détails.</a>
+
+      <div class="carousel-item">
+        <div class="row"><div class="col col-12"><h4 class="recomTi  text-center">Quand on est à Rome </br>(en 50 av. J.-C.)</h4></div></div>
+        <div class="row">
+          <div class="col-lg-4 offset-4 colImgRec  align-self-center">
+            <img class="imgRec img-fluid" src="assets/img/MEV_N4_QuandOnEstARome.jpg"
+          aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
+          </div>
+        </div>
+        <div class="row">
+          <div class="carousel-caption">
+                <div class="center"><a class="btn recomBtn" target="_blank" href="">Voir les détails.</a></div>
+            </div>
         </div>
       </div>
+
     </div>
-    <div class="col col-lg-1">
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselN4" data-bs-slide="next">
-      <img src="assets/img/iconbookright.jpg" class="carousel-control-next-icon" aria-hidden="false"></img>
-      </button>
-    </div>
-    
-  </div>
+
+</div>
   
 <div id="MEVnM" class="col-2 offset-5"><img id="imgDivMEV" src="assets/img/vector3.jpg"></img></div>
 
 <h2>BAnQ, étage M: Espace jeunes</h2>
+
 <div class="container text-center"><div class="row align-items-center">
-    <div class="col-lg-1 offset-3 col-md-3 col-sm-4"><img class="imgdivleft3" src="assets/img/vector_left.jpg" role="img"></img></div>
-    <div class="col-lg-4 col-md-4 col-sm-4">
-      <img src="assets/img/MEV_NM_thumb_jeunesse.jpg" class="imgMEVthumb rounded-circle" height="140" width="auto" role="img" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
+  <div class="col-lg-4 col-md-3 col-sm-3"><img class="imgdivright3" src="assets/img/vector_right.jpg" role="img"></img></div>
+  <div class="col-lg-4 col-md-6 col-sm-6">
+      <img src="assets/img/MEV_N3_thumb_pays.jpg" class="imgMEVthumb rounded-circle" height="140" width="auto" role="img" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
       <h3>Documents jeunesse</h3>
       <p><a class="btn btn-secondary" href="MEV_NM_Jeunesse.html">Voir les détails.</a></p>
     </div>
-    <div class="col-lg-1 col-md-3 col-sm-4"><img class="imgdivright3" src="assets/img/vector_left.jpg" role="img"></img></div>
-  </div></div>
-  <div id="carouselM" class="carousel slide" data-bs-ride="carousel">
-    <div class="col col-lg-1">
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselM" data-bs-slide="next">
-      <img src="assets/img/iconbookright.jpg" class="carousel-control-next-icon" aria-hidden="false"></img>
+    <div class="col-lg-4 col-md-3 col-sm-3"><img class="imgdivleft3" src="assets/img/vector_left.jpg" role="img"></img></div>
+    
+</div></div>
+<div id="carouselM" class="carousel slide container" data-bs-ride="carousel">
+
+    <div class="col col-lg-1 col-sm-3">
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselM" data-bs-slide="prev">
+        <img src="assets/img/iconbookleft.jpg" class="carousel-control-prev-icon" aria-hidden="true"></img>
       </button>
     </div>
-    <div class="carousel-indicators">
+    <div class="col col-lg-1 col-sm-3">
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselM" data-bs-slide="next">
+      <img src="assets/img/iconbookright.jpg" class="carousel-control-next-icon" aria-hidden="true"></img>
+      </button>
+    </div>
+
+    <div class="row carousel-indicators">
       <button type="button" data-bs-target="#carouselM" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
       <button type="button" data-bs-target="#carouselM" data-bs-slide-to="1" aria-label="Slide 2"></button>
       <button type="button" data-bs-target="#carouselM" data-bs-slide-to="2" aria-label="Slide 3"></button>
     </div>
-    <div class="container carousel-inner">
-      <div class="carousel-item active g-col-5">
-        <img class="float-start imgMEV" src="assets/img/MEV_M_DieuxMonstresEtHeros1.jpg" width="30%"
-        aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
-        <div class="carousel-caption">
-              <h4 class="recomTi">Dieux, monstres et héros</h4>
-              <a class="btn btn-md btn-primary" href="#">Voir les détails.</a>
+    <div class="container carousel-inner col-lg-3 col-md-3 col-sm-6 text-center">
+
+    <div class="carousel-item active">
+        <div class="row"><div class="col col-12"><h4 class="recomTi  text-center">Dieux, monstres et héros</h4></div></div>
+        <div class="row">
+          <div class="col-lg-4 offset-4 colImgRec  align-self-center">
+            <img class="imgRec img-fluid" src="assets/img/MEV_M_DieuxMonstresEtHeros1.jpg"
+          aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
+          </div>
+        </div>
+        <div class="row">
+          <div class="carousel-caption">
+                <div class="center"><a class="btn recomBtn" target="_blank" href="">Voir les détails.</a></div>
+            </div>
         </div>
       </div>
-      <div class="carousel-item g-col-5">
-        <img class="float-start imgMEV" src="assets/img/MEV_M_NinjaKarateJudoKiai.jpg" width="30%"
-        aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
-        <div class="carousel-caption">
-              <h4 class="recomTi">Ninja, karaté, judo, kiai!</h4>
-              <a class="btn btn-md btn-primary" href="#">Voir les détails.</a>
+
+      <div class="carousel-item">
+        <div class="row"><div class="col col-12"><h4 class="recomTi  text-center">Ninja, karaté, judo, kiai!</h4></div></div>
+        <div class="row">
+          <div class="col-lg-4 offset-4 colImgRec  align-self-center">
+            <img class="imgRec img-fluid" src="assets/img/MEV_M_NinjaKarateJudoKiai.jpg"
+          aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
+          </div>
+        </div>
+        <div class="row">
+          <div class="carousel-caption">
+                <div class="center"><a class="btn recomBtn" target="_blank" href="">Voir les détails.</a></div>
+            </div>
         </div>
       </div>
-      <div class="carousel-item g-col-5">
-        <img class="float-start imgMEV" src="assets/img/MEV_M_PiratesATribord1.jpg" width="30%"
-        aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
-        <div class="carousel-caption">
-              <h4 class="recomTi">Pirates à tribord!</h4>
-              <a class="btn btn-md btn-primary" href="#">Voir les détails.</a>
+
+      <div class="carousel-item">
+        <div class="row"><div class="col col-12"><h4 class="recomTi  text-center">Pirates à tribord!</h4></div></div>
+        <div class="row">
+          <div class="col-lg-4 offset-4 colImgRec  align-self-center">
+            <img class="imgRec img-fluid" src="assets/img/MEV_M_PiratesATribord1.jpg"
+          aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
+          </div>
+        </div>
+        <div class="row">
+          <div class="carousel-caption">
+                <div class="center"><a class="btn recomBtn" target="_blank" href="">Voir les détails.</a></div>
+            </div>
         </div>
       </div>
+
     </div>
-    <div class="col col-lg-1">
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselM" data-bs-slide="next">
-      <img src="assets/img/iconbookright.jpg" class="carousel-control-next-icon" aria-hidden="false"></img>
-      </button>
-    </div>
-    
-  </div>         
-</body>
+
+</div>
+
+</main>
+       
 <footer class="footer mt-auto py-3">
     <p class="float-end"><a href="#">Back to top</a></p>
     <p class="align-start"></p>&copy; 2025 Catherine Cournoyer, Ltd. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
 </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+</body>
 </html>
