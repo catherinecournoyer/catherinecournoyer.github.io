@@ -57,6 +57,11 @@ h4 {
   color: rgb(18,70,89);
 }
 
+h5 {
+  margin-bottom: 10px;
+  color: rgb(18,70,89);
+}
+
 /*Header */
 header {
 }
@@ -70,6 +75,10 @@ header {
   width: auto;
   height: 100px;
   text-align: right;
+}
+
+#imagerow {
+  background-image: url(assets/img/mosaique.jpg);
 }
 
 #nomPrincipal {
@@ -102,23 +111,25 @@ header {
 #navDropItem:hover {
   border-color: rgb(18,70,89);
   border-width: 7px;
-  color: rgb(18,70,89);
+  background-color: rgb(18,70,89);
   margin-bottom: 0px;
   padding: 15px;
   color: white;
 }
 
 #navDropMenu {
-  background-color: rgb(253, 218, 180); 
+  background: rgb(253, 218, 180); 
   color: rgb(18,70,89);
+  border-color: rgb(18,70,89);
   border-width: 7px;
   padding: 0px;
 }
 
 #navDropMenu:active {
-  background-color: rgb(253, 218, 180); 
-  color: rgb(18,70,89);
+  border-color: rgb(18,70,89);
   border-width: 7px;
+  background: rgb(18,70,89);
+  color: white;
 }
 
 #recherche {
@@ -517,27 +528,32 @@ div.carousel-caption {
   body {
     p {
       font-size: 16px;
-    }
+   }
     h1 {
-      text-align: center;
+      font-size: 23.4px;
       margin-top: 20px;
       margin-bottom: 20px;
     }
     h2 {
-      text-align: left;
+      font-size: 39.8px;
       margin-bottom: 15px;
       margin-left: 30px;
     }
     h3 {
+      font-size: 33.18px;
       margin-top: 30px;
       margin-bottom: 0px;
     }
     h4 {
-      text-align: center;
-    } 
+      font-size: 27.65px;
+      margin-bottom: 10px;
+    }
+    h5 {
+      font-size: 23.04px;
+      }
     .recomTi {
       color: rgb(18,70,89);;
-      font-size: 20px;
+      font-size: 23.04x;
       margin-top: 10px;
       margin-bottom: 10px;
       height: auto;
@@ -578,25 +594,27 @@ div.carousel-caption {
       color: rgb(18,70,89);
     }
     h1 {
-      text-align: center;
+      font-size: 59.72px;
       margin-top: 20px;
       margin-bottom: 20px;
     }
     h2 {
-      text-align: left;
+      font-size: 49.77px;
       margin-bottom: 15px;
       margin-left: 30px;
     }
     h3 {
-      text-align: center;
-      background-color:  rgb(253, 218, 180); 
+      font-size: 41.47px;
       margin-top: 30px;
       margin-bottom: 0px;
     }
     h4 {
-      text-align: center;
+      font-size: 34.56px;
       margin-bottom: 10px;
     }
+    h5 {
+      font-size: 28.8px;
+      }
     .recomTi {
       color: rgb(37, 150, 190);
       font-size: 25px;
@@ -643,25 +661,28 @@ div.carousel-caption {
       color: rgb(18,70,89);
     }
     h1 {
-      text-align: center;
+      font-size: 71.66px;
       margin-top: 20px;
       margin-bottom: 20px;
     }
     h2 {
-      text-align: left;
+      font-size: 59.72px;
       margin-bottom: 15px;
       margin-left: 30px;
     }
     h3 {
-      text-align: center;
-      background-color:  rgb(253, 218, 180); 
+      font-size: 49.77px;
       margin-top: 30px;
       margin-bottom: 0px;
     }
     h4 {
-      text-align: center;
+      font-size: 41.47px;
       margin-bottom: 10px;
     }
+    h5 {
+      font-size: 34.56pox;
+      }
+
     /* the image for MEV in the MEV page carousels */
     .imgMEV {
       height: 70%;
@@ -726,29 +747,10 @@ div.carousel-caption {
 
 
 
-.hidden-element {
-  display: none;
-}
 
-.parent-element:hover {
-.hidden-element{
-  display: block;
-  height: 400px;
-  width: auto;
-}
-}
 
 
 /* ??? */
-
-
-.RecTxt {
-  position: relative;
-}
-
-.RecTxt2 {
-    position: absolute;
-}
 
 .table-responsive {
   width: 100%;
@@ -768,12 +770,14 @@ div.carousel-caption {
 }
 
 
-
-
-
-.cv-list {
-  ;
+.hidden-element {
+  display: none;
 }
 
-rgb(163, 255, 135);
-  rgba(227, 135, 255, 0.8)*/
+.parent-element:hover {
+.hidden-element{
+  display: block;
+  height: 140;
+  width: auto;
+}
+}
